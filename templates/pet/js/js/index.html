@@ -1,0 +1,104 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Untitled Document</title>
+<script type="text/javascript" src="mootools.svn.js"></script>
+<style type="text/css">
+body{font-family:Arial, Helvetica, sans-serif; font-size:13px;}
+/* -------------------------------------------------------- */
+/* BUTTON													*/
+.button{
+	background:url(img/button.png)  -32px right no-repeat;
+	color:#FFFFFF;
+	clear:both;
+	display:block;
+	float:left;
+	font-size:13px;
+	font-weight:bold;
+	height:31px;
+	line-height:31px;
+	width:auto;
+	margin-right:30px;
+}
+	a.button {
+		text-decoration:none;
+	}
+	.button span {
+		background:url(img/button.png) left top no-repeat;
+		display:block;
+		height:31px;
+		line-height:31px;
+		padding-left:10px;
+		padding-right:8px;
+		margin-right:20px;
+	}
+/* -------------------------------------------------------- */
+/* MENU														*/
+.v-menu{
+	border:solid 1px #7F9FBF;
+	width:200px;
+	clear:both;
+}
+	ul.v-menu, .v-menu li{
+		padding:0; 
+		margin:0;
+		list-style:none;
+	}
+	ul.v-menu{
+		clear:both;
+		margin-top:6px;
+		padding:6px 10px;
+	}
+		.v-menu li a{
+			color:#555555;
+			font-weight:bold;
+			display:block;
+			border-top:solid 1px #DEDEDE;
+			padding:4px;
+			text-decoration:none;
+		}
+		.v-menu li a:hover{
+			color:#999999;
+		}
+
+</style>
+<!-- Mootools -->
+<script type="text/javascript">
+		window.addEvent('domready', function(){
+			//-vertical
+			
+			var mySlide = new Fx.Slide('v-menu2');
+			mySlide.hide(); 
+			$('toggle').addEvent('click', function(e){
+				e = new Event(e);
+				mySlide.toggle();
+				e.stop();
+			});
+
+		}); 
+	</script>
+
+</head>
+
+<body>
+<table width="600" border="0" align="center" cellpadding="0" cellspacing="0">
+<tr>
+<td width="50%" height="45"><h2>Меню</h2></td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+  <a href="#" id="toggle" class="button"><span>Нажмите здесь</span></a>
+  <div style="clear:both">
+  <ul id="v-menu2" class="v-menu">
+  <li><a href="p1.html">Technology</a></li>
+  <li><a href="p2.html">Design</a></li>
+  <li><a href="p3.html">Css Gallery</a></li>
+  <li><a href="p4.html">Entertainment</a></li>
+  <li><a href="p5.html">Programming</a></li>
+  </ul>
+</div></td>
+</tr>
+</table>
+</body>
+</html>

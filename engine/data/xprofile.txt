@@ -1,0 +1,2 @@
+moi-zivotnie|Вид или Порода|1|text|1|0|
+name-pitomec|Имя Питомца|1|text|1|0|
