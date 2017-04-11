@@ -1,9 +1,6 @@
- 
+
 
            <div id="main_content">
-		
-
-
 <div id="content">
 <div id="viberi-pitomca">
 <h1 class="blue">Выбери питомца</h1>
@@ -103,12 +100,11 @@
 <a href="http://wikipet.by/wikipet-zhurnal/"><h1 class="red">wikipet-журнал</h1></a>
 <div class="line"></div>
 <ul class="main-page-block-menu2">
-      <li><a href="#">Тема дня</a></li>
-   
-    <li><a href="#">Animal Fashion</a></li>
-    <li><a href="#">Анималистика</a></li>
-    <li><a href="#">Животные в бизнесе</a></li>
-    <li><a href="#">Занимательная психология</a></li>
+    <li><a href="#">Тема дня</a></li>
+    <li><a href="https://wikipet.by/positive/animal-fashion/">Animal Fashion</a></li>
+    <li><a href="https://wikipet.by/positive/animalistika/">Анималистика</a></li>
+    <li><a href="https://wikipet.by/positive/zhivotnye-v-biznese/">Животные в бизнесе</a></li>
+    <li><a href="https://wikipet.by/positive/zanimatelnaya-psihologiya/">Занимательная психология</a></li>
 
     
 </ul>
@@ -116,11 +112,11 @@
     
    <div class="line"></div>
 <ul class="main-page-block-menu">
- <li><a href="#">Мифология и символика</a></li>
-    <li><a href="#">Животные творцы</a></li>
-    <li><a href="#">Персоны</a></li>
-    <li><a href="#">Прямой репортаж</a></li>
-     <li><a href="#">Герои нашего времени</a></li>
+    <li><a href="https://wikipet.by/positive/mifologiya-i-simvolika/">Мифология и символика</a></li>
+    <li><a href="https://wikipet.by/positive/zhivotnye-tvorcy/">Животные творцы</a></li>
+    <li><a href="https://wikipet.by/positive/personi/">Персоны</a></li>
+    <li><a href="https://wikipet.by/positive/pryamoy-reportaj/">Прямой репортаж</a></li>
+    <li><a href="https://wikipet.by/positive/geroi/">Герои нашего времени</a></li>
   
 
  
@@ -132,20 +128,19 @@
 
 <div class="clear"></div>
 <div id="art">
-<a href="http://wikipet.by/pet-art/"><h1 class="red">Art</h1></a>
+<a href="http://wikipet.by/pet-art/"><h1 class="red">Творчество</h1></a>
 <div class="line"></div>
 <ul class="main-page-block-menu">
 <li><a href="http://wikipet.by/pet-art/hand-made/">Hand-made</a></li>
-<li><a href="#">Дизайн</a></li>
+<li><a href="https://wikipet.by/pet-art/dizayn-mebel/">Дизайн</a></li>
 <li><a href="http://wikipet.by/pet-art/master-klass/">Мастер-классы</a></li>
-
 </ul>
-{custom category="41" order="reads" limit="3" from="0"  template="index-collag-art"}
+{custom category="41,91"  limit="3" from="0"  template="index-collag-art"}
 
 </div>
 
 <div class="clear"></div>
-<div id="conkursi">
+<div id="conkursi" style="display:none">
 <a href="http://wikipet.by/konkursy/"><h1 class="red">Конкурсы</h1></a>
 <div class="line"></div>
 
@@ -159,221 +154,5 @@ DLE конец main-content
 	
 </div>
 
-   <!-- заставка 
-               <style>
-                   .zastavka{
-                       width: 922px;
-                       height: 979px;
-                       position: fixed;
-                       z-index: 99999999;
-                       background: #fff;
-    margin: 0 auto;
-    top: 200px;
-                   }
-                   
-                          .wp {
-                       width: 100%;
-                       height: 100%;
-                       position: absolute;
-                       z-index: 9999999;
-                       background: rgba(0, 0, 0, 0.24);
- 
-                   }
-                    .zastavka .logo{
-                        background:url({theme}/img/logo3.png) center center no-repeat;
-                   }
-                   
-                     .zastavka .header{
-                            text-transform: uppercase;
-                            font-family: BebasNeueRegular;
-                            font-size: 40px;
-                            color: #9d331b;
-                               }
-               .zastavka .text p{
-                        
-                            font-family: OpenSans;
-                            font-size: 18px;
-                            color: #000;
-                               }
-                   
-                      .zastavka .text span, .zastavka .email span, .zastavka .info span {
-                        
-                           text-align: center;
-                            font-family: OpenSans;
-                            font-size: 18px;
-                            color: #000;
-                               }
-                   .zastavka .button{
-                       height: 68px;
-                       width: 514px;
-                       margin: 0 auto;
-                       margin-bottom: 24px;
-                   }
-                   
-                   .b1, .b2, .b3{
-                       float: left;
-                       padding: 23px 20px;
-                        text-transform: uppercase;
-                            font-family: BebasNeueRegular;
-                            font-size: 24px;
-                            color: #9d331b;
-                   }
-                     .b2{
-                margin: 0 19px;
-                   }
-                   
-                   .zastavka .email{
-                       
-                       height: 126px;
-                       border-top: #e1e1e1;
-                   }
-                   
-                       .zastavka .info{
-                       
-                       text-align: center;
-                            font-family: OpenSans;
-                            font-size: 18px;
-                             color: #9d331b;
-                   }
-               </style>
-               <div class="wp">
-               <div class="zastavka">
-               <div class="logo"></div>
-                   <div class="header">МЫ ГОТОВИМСЯ К ОТКРЫТИЮ!</div>
-                   <div class="clear"></div>
-                   <div class="text">
-                  <p style="color:"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Работаем над контентом в режиме онлайн – каждый день добавляем что-то новое. </p>
-
-<p>Мы хотим создать  живой  портал о реальных питомцах и их хозяевах. Поэтому собираем информацию из первых уст. И только позитивно! </p>
-
-<p>Приглашаем вас первыми рассказать о своих любимцах. Возможно, именно вам удастся изменить привычный взгляд или развеять традиционные и современные мифы о виде или породе.</p>
-                       <span>Вы можете поучваствовать в наполнении следующих рубрик</span>
-                   
-                   </div>
-                    <div class="clear"></div>
-                   <div class="button">
-                   <div class="b1"></div>
-                       <div class="b2"></div>
-                       <div class="b3"></div>
-                   
-                   </div>
-                    <div class="clear"></div>
-                   <div class="email">
-                   <span>Присылайте письма на адрес</span>
-                       <div class="info">info@wikipet.by</div>
-                   
-                   
-                   </div>
-                    <div class="clear"></div>
-                   <div class="tell">
-                     <span>Звоните и приходите к нам в офис на интервью со своими питомцами</span>
-                       <div class="info">+375 (29) 123-45-67</div>
-                   
-                   </div>
-                   <div class="social">
-                         <span>Присоединяйтесь в соц. сетях</span>
-  <div class="share42init" data-zero-counter="0" data image="http://wikipet.by/share42/icons.png" style="margin: 0 auto;width: 300px;margin-bottom:30px;"></div>
-                       <span id="share42">
-                           
-                           
-                           <span class="share42-item" style="display:inline-block;margin:0 6px 6px 0;height:54px;"><a rel="nofollow" style="display:inline-block;width:54px;height:54px;margin:0;padding:0;outline:none;background:url(http://wikipet.by/share/icons.png) -0px 0 no-repeat" href="#"></a></span>
-                           
-                           <span class="share42-item" style="display:inline-block;margin:0 6px 6px 0;height:54px;"><a rel="nofollow" style="display:inline-block;width:54px;height:54px;margin:0;padding:0;outline:none;background:url(http://wikipet.by/share/icons.png) -54px 0 no-repeat" href="#" ></a></span>
-                           
-                           <span class="share42-item" style="display:inline-block;margin:0 6px 6px 0;height:54px;"><a rel="nofollow" style="display:inline-block;width:54px;height:54px;margin:0;padding:0;outline:none;background:url(http://wikipet.by/share/icons.png) -108px 0 no-repeat" href="#" ></a></span>
-                           
-                           <span class="share42-item" style="display:inline-block;margin:0 6px 6px 0;height:54px;"><a rel="nofollow" style="display:inline-block;width:54px;height:54px;margin:0;padding:0;outline:none;background:url(http://wikipet.by/share/icons.png) -162px 0 no-repeat" href="#" ></a></span>
-                           
-                           <span class="share42-item" style="display:inline-block;margin:0 6px 6px 0;height:54px;"><a rel="nofollow" style="display:inline-block;width:54px;height:54px;margin:0;padding:0;outline:none;background:url(http://wikipet.by/share/icons.png) -216px 0 no-repeat" href="#" ></a></span>
-                       
-                       
-                       
-                       </span>
-                   
-                   </div>
-               
-               
-               
-               
-               </div>
-               </div>
-                <!-- заставка конец -->
-               
- <!-- заставка-->
-
- <div class="start-box-wrapper" style="display:none;">
-	<div class="start-box-inner">
-		<div class="start-box-logo">
-			<img src="http://wikipet.by/templates/pet/img/logo3.png" >
-		</div>
-
-		<div class="start-box-header">Мы готовимся к открытию</div>
-		
-		<div class="start-box-text-1">
-			WikiPet.by - портал любящих хозяев и их питомцев! Собаки, кошки, птицы и другие наши любимцы нуждаются в заботе и внимании. Их нужно правильно кормить, воспитывать, лечить и защищать - обо всем этом наш ресурс.  
-		</div>
-		
-        <div class="start-box-text-2">
-			<p>Приглашаем вас первыми рассказать о своих любимцах. Становитесь нашими авторами, экспертами, блогерами!
-			</p>
-
-			<!--<p>Приглашаем вас первыми рассказать о своих любимцах. 
-				Возможно, именно вам удастся изменить 
-				привычный взгляд или развеять традиционные и современные мифы о виде или породе.
-			</p>-->
-		</div>
-		
-		<div class=" start-box-text-3">
-			Вы можете поучаствовать в наполнении следующих рубрик
-		</div>
-		
-		<div class="start-box-buttons">
-			<ul>
-				<li><a href="http://wikipet.by/enciklopediya">ГИД ПО ВИДАМ/ПОРОДАМ</a></li>
-				<li><a href="http://wikipet.by/positive">ПОЗИТИВ</a></li>
-				<li><a href="http://wikipet.by/positive/geroi/">WIKIPET - ЖУРНАЛ</a></li>
-                <li><a href="https://wikipet.by/blog/">БЛОГ</a></li>
-			</ul>
-		</div>
-		
-		<div class="start-box-adress">
-			<p>Присылайте письма на адрес</p>
-			<a href="mailto:info@wikipet.by">info@wikipet.by </a>
-		</div>
-
-		<div class="start-box-welcome">
-			<p>Звоните и приходите к нам в офис на интервью со своими питомцами</p>
-			<a href="#">+375 (29) 680-80-49</a>
-		</div>
-		
-		<div class="start-box-social-buttons">
-			<p class="start-box-social-buttons-text">Присоединяйтесь в соц. сетях</p>
-			
-		<div class="share">
-			 <div class="share42init" data-zero-counter="0" data image="http://wikipet.by/share42/icons.png" style="margin: 0 auto;width: 300px;margin-bottom:30px;"></div>
-                       <span id="share42">
-                           
-                           
-                         <span class="share42-item" style="display:inline-block;margin:0 6px 6px 0;height:54px;"><a rel="nofollow" style="display:inline-block;width:54px;height:54px;margin:0;padding:0;outline:none;background:url(http://wikipet.by/share/icons.png) -0px 0 no-repeat" href="https://www.facebook.com/WikiPetby-482208312169722/"></a></span>
-                           
-                           <span class="share42-item" style="display:inline-block;margin:0 6px 6px 0;height:54px;"><a rel="nofollow" style="display:inline-block;width:54px;height:54px;margin:0;padding:0;outline:none;background:url(http://wikipet.by/share/icons.png) -54px 0 no-repeat" href="#" ></a></span>
-                           
-                           <span class="share42-item" style="display:inline-block;margin:0 6px 6px 0;height:54px;"><a rel="nofollow" style="display:inline-block;width:54px;height:54px;margin:0;padding:0;outline:none;background:url(http://wikipet.by/share/icons.png) -108px 0 no-repeat" href="#" ></a></span>
-                           
-                           <span class="share42-item" style="display:inline-block;margin:0 6px 6px 0;height:54px;"><a rel="nofollow" style="display:inline-block;width:54px;height:54px;margin:0;padding:0;outline:none;background:url(http://wikipet.by/share/icons.png) -162px 0 no-repeat" href="#" ></a></span>
-                           
-                          <span class="share42-item" style="display:inline-block;margin:0 6px 6px 0;height:54px;"><a rel="nofollow" style="display:inline-block;width:54px;height:54px;margin:0;padding:0;outline:none;background:url(http://wikipet.by/share/icons.png) -216px 0 no-repeat" href="https://vk.com/public139516772" ></a></span>
-                       
-                       
-                       
-                       </span>
-                   
-                   </div>
-        </div>
-	</div>
-</div>
-
- 
-  <!-- заставка конец -->
            </div><!--main_content-->
 

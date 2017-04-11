@@ -38,16 +38,16 @@
 }
     </style>
 
-<div id="handmade-box1"><h1 class="hndmd-header">Дизайн</h1>
+    <a href="https://wikipet.by/pet-art/dizayn-mebel/"><div id="handmade-box1"><h1 class="hndmd-header">Дизайн</h1>
      <ul class="hndmd-ul">
 		 <li>Мебель</li>
 		 <li>Одежда и аксессуары</li>
 		 <li>Интерьер</li>
 		 <li>Полиграфия</li>
      </ul>
-	</div>
+	</div></a>
    
-    <div id="handmade-box2"><a href="http://wikipet.by/pet-art/hand-made/"><h1 class="hndmd-header">hand-made </h1></a>
+    <a href="http://wikipet.by/pet-art/hand-made/"><div id="handmade-box2"><h1 class="hndmd-header">hand-made </h1>
      <ul class="hndmd-ul">
 		 <li>Cкрап</li>
 	     <li>Декупаж</li>
@@ -57,8 +57,8 @@
          <li>Вышивка</li>
          <li>Бисер</li>
      </ul> 
-   </div>
-   <div id="handmade-box3"><a href="http://wikipet.by/pet-art/master-klass/"><h1 class="hndmd-header">Мастер-класс</h1></a>
+   </div></a>
+   <a href="http://wikipet.by/pet-art/master-klass/"><div id="handmade-box3"><h1 class="hndmd-header">Мастер-класс</h1>
     <ul class="hndmd-ul">
    <li>Cкрап</li>
 <li>Декупаж</li>
@@ -67,7 +67,7 @@
 <li>Текстильная игрушка</li>
 <li>Вышивка</li>
 <li>Бисер</li>
-  </ul> </div>
+  </ul> </div></a>
    
 <div class="clear"></div>
 

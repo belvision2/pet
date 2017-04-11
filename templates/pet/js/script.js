@@ -1,6 +1,4 @@
 
-
-
 /* всплывающее окно входа */
 $(document).ready(function(e) {
 p = $('.popup__overlay')
@@ -17,7 +15,8 @@ $('.popup__close').click(function() {
     p.css('display', 'none')
 })
   });	
-	
+	/* поиск в шапке */
+
 	function otkr(){
 	
 			var text2 = document.getElementById('text2');
@@ -33,9 +32,6 @@ $('.popup__close').click(function() {
 			login_pane.style.display = 'block';
 		}
 	}
-	
-	
-
 
 /*$(document).ready(function() {
 
@@ -49,13 +45,10 @@ $('.popup__close').click(function() {
          return this.href == url;
          }).parent().addClass('active');
 		 
-		 
-
-         
-
    });  */ 
 
 /* меню на главной */
+
 $(document).ready(function(e) {
 p = $('.pop-up-menu');
 
@@ -81,7 +74,7 @@ $('.p-m-col-1 h1').click(function() {
     vxod.css('display', 'none')
 });
 
-    
+    /*  социальные кнопки на главной слева */
     $(window).on('load resize scroll', function () {
 
         if (!$('#glue').hasClass('fixed'))
@@ -95,5 +88,9 @@ $('.p-m-col-1 h1').click(function() {
         }
 
     });
+    
+
 
   });
+
+  

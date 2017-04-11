@@ -1,29 +1,4 @@
-<style>
-    .share42init{
-        margin-top: 12px;
-    }
-    .author{
-        height: 70px;
-        margin-top: 25px;
-    }
-    .author img{
-        float: left;
-        display: block;
-    }
-    .author span{
-        margin-left: 31px;
-    display: block;
-    float: left;
-    margin-top: 23px;
-    }
-    
-    img.fr-dii.fr-fil {
-    float: left;
-    margin: 5px 12px 5px 0;
-    max-width: calc(100% - 5px);
-}
- 
-</style>
+
 <div id="main_content">
   
 
@@ -101,25 +76,10 @@
 <div class="line" style="    margin-top: 50px;"></div>
 
    <h1 class="collage_header">ПОНРАВИЛОСЬ? ПОДЕЛИСЬ В СОЦ. СЕТЯХ</h1>
-  <div class="share42init" data-zero-counter="0" data image="http://wikipet.by/share42/icons.png" style="margin: 0 auto;width: 300px;margin-bottom:30px;"></div>
+  <div class="share42init" data-zero-counter="0" data image="http://wikipet.by/share42/icons.png" style="margin: 0 auto;width: 490px;margin-bottom:30px;"></div>
 <div class="line"></div>
     
     <div class="clear"></div>
-    
-  <style>
-    div.main-page-box:nth-child(12),div.main-page-box:nth-child(18),div.main-page-box:nth-child(21){
-        margin-right: 0px;
-    }
- 
-         h1.red-full {
-    text-transform: uppercase;
-    font-family: BebasNeueRegular;
-    font-size: 40px;
-    color: #9d331b;
-    margin-bottom: 16px;
-margin-top: 35px;
-    }
-</style>
 
 
     <h1 class="red-full">ДРУГИЕ СТАТЬИ ПО ТЕМЕ</h1>

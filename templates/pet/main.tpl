@@ -4,7 +4,6 @@
 	{headers}
 <meta name="viewport" content="width=device-width">
 	<link rel="stylesheet" href="{THEME}/css/styledefault.css"  type="text/css" media="all" />
-	<link rel="stylesheet" href="{THEME}/css/tg.css"  type="text/css" media="all" />
 	<link rel="stylesheet" href="{THEME}/css/style.css"  type="text/css" media="all" />
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
 <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script><![endif]-->
@@ -75,7 +74,7 @@
    [static=index] {include file="modules/index-slider.tpl"}[/static]
 
    <div id="content">
-    {include file="modules/rightsidebar.tpl"}
+    {include file="sidebar/rightsidebar.tpl"}
 	[not-static=index]{include file="speedbar.tpl"}[/not-static]
        	[category=54]{include file="ivan.tpl"}[/category]
      

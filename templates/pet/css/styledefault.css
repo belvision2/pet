@@ -1287,7 +1287,7 @@ ol { padding-left: 25px; list-style: decimal outside; }
 		.form-sep { border-top: 1px solid #efefef; }
 
 	/* Модификация BB редактора для комментариев */
-	#comment-editor .bb-editor textarea { padding: 7px; padding-bottom: 45px; height: 200px; }
+
 	.addpm #comment-editor .bb-editor textarea { height: 340px; }
 
 	.wseditor table, .bb-editor table { margin: 0px; }
