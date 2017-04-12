@@ -18,7 +18,7 @@
    <div class="f-col-4-1">
       <ul id="f-col-4-1-menu2">
     <li id="f-col-4-1-child"><a href="https://wikipet.by/pravovye-voprosy/">Содержание животных<br />(правовые вопросы)</a></li>
-        <li><a href="#">Спец. проекты</a></li>
+        <li><a href="https://wikipet.by/specproekty/">Спец. проекты</a></li>
         <li><a href="#">Конкурсы</a></li>
        <!-- <li><a href="#">Новости компаний</a></li>-->
       </ul>

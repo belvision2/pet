@@ -1,83 +1,9 @@
 <style>
-/*.collage-box:nth-child(2) > div:nth-child(1) {
-width:234px;}
-.collage-box:nth-child(3) > div:nth-child(1){
-width:234px;}
-
-.collage-box:nth-child(4) > div:nth-child(1){
-width:234px;}
-div.collage-box:nth-child(6) > div:nth-child(1) {
-width:234px;}
-div.collage-box:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) {
-width:234px;}
-.collage-box:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) {
-width:234px;}
-.collage-box:nth-child(4) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) {
-width:234px;}
-
-.collage-box:nth-child(6) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) {
-width:234px;}
-*/
-.navigation {
-  display: none
-}
-    
-    .mozet-prigoditsya{width: 952px;
-    
-    }
-    
-    .mp-col-1{
-    float: left;
-        width: 302px;
-        height: 483px;
-        
-        
-    }
-     .mp-col-2, .mp-col-3{
-         margin-left: 23px;
-    float: left;
-        width: 302px;
-        height: 483px;
-        
-    }
-    
-    .mp{float: left;
-    width: 302px;
-        height: 230px;
-    }
-    
-   .mozet-prigoditsya .mp-col-1 div+div, .mp-col-2 div+div, .mp-col-3 div+div{
-      margin-top: 23px;  
-        
-    }
-    
-    .mp-f{
-          width: 302px;
-        height: 230px;
-        background: url({theme}/img/mp-f.png) no-repeat;  
-    }
-    .metka{
-        
-        display: block;
-        color: #fff;
-        font-size: 30px;
-        font-family: BebasNeueRegular;
-        margin-top: 195px;
-    margin-left: 15px;
-            position: absolute;
-        text-transform: uppercase;
-    }
-    
+.navigation {display: none}
     /* убираем поиск */
-    .derevo {
-    height: 0px;
-    margin-top: 24px;
-}
-    .seed-form {
-        display: none;}
-    
-    #main_content {
-        padding-top: 0px;}
+.derevo {height: 0px;margin-top: 24px;}
+    .seed-form {display: none;}
+    #main_content {padding-top: 0px;}
 </style>
 
 <div id="main_content">

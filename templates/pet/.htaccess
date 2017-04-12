@@ -1,5 +1,3 @@
-DirectoryIndex index.php?do=static&page=index
-
 RewriteEngine On
 
 # Редиректы

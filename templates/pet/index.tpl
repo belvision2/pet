@@ -1,5 +1,4 @@
 
-
            <div id="main_content">
 <div id="content">
 <div id="viberi-pitomca">
@@ -29,7 +28,7 @@
                                 <span class="thumbnail-text">Аквариумные</span></div>
                                              <div>
                                 <img alt="" src="{THEME}/img/img_2.jpg" /><br />
-                                <span class="thumbnail-text">Коты</span></div>
+                                <span class="thumbnail-text">Кошки</span></div>
                             <div>
                                 <img alt="" src="{THEME}/img/img_3.jpg" /><br />
                                 <span class="thumbnail-text">Птицы</span></div>
@@ -45,16 +44,16 @@
 
 </div>
 <div class="empty">
-    {custom category="22,60-65" from="0" limit="1" template="index-collag1"}
+    {custom category="22,60-65" from="0" limit="1" template="main/index-collag1"}
 
 <div class="col-2">
-	{custom category="11,13-18,52,55"  limit="1" from="0" template="index-collag2"}
-{custom category="24,25,27,49"  limit="1" from="0" idexclude="56" template="index-collag2"}
+	{custom category="11,13-18,52,55"  limit="1" from="0" template="main/index-collag2"}
+{custom category="24,25,27,49"  limit="1" from="0" idexclude="56" template="main/index-collag2"}
 </div>
 <div class="col-3">
-{custom category="42,99"  limit="1" from="1" idexclude="56" template="index-collag3"}
-{custom category="53,100,91"  limit="1" from="0" idexclude="56" template="index-collag3"}
-{custom category="59,80,89" limit="1" from="2" idexclude="56" template="index-collag4"}
+{custom category="42,99"  limit="1" from="1" idexclude="56" template="main/index-collag3"}
+{custom category="53,100,91"  limit="1" from="0" idexclude="56" template="main/index-collag3"}
+{custom category="59,80,89" limit="1" from="2" idexclude="56" template="main/index-collag4"}
 </div>
 </div>
 <div id="positiv">
@@ -67,7 +66,7 @@
 <li><a href="https://wikipet.by/positive/v-svobodnoe-vremya/">В свободное время</a></li>
 <li><a href="http://wikipet.by/positive/v-svobodnoe-vremya/152-astrologiya.html">Астрология</a></li>
 </ul>
-{custom category="24,25,49" order="reads" limit="6" from="0" idexclude="56" template="index-collag-positiv"}
+{custom category="24,25,49" order="reads" limit="6" from="0" idexclude="56" template="main/index-collag-positiv"}
 </div>
 
 <div class="clear"></div>
@@ -83,7 +82,7 @@
 <li><a href="https://wikipet.by/zdorove-i-pitanie-sobaki/psihologiya/">Психология</a></li>
     <li><a href="https://wikipet.by/zdorove-i-pitanie-sobaki/dressirovka-i-vospitanie/">Дрессировка и воспитание</a></li>
 </ul>
-{custom category="42,99" limit="6" from="0" idexclude="56" template="index-collag-positiv"}
+{custom category="42,99" limit="6" from="0" idexclude="56" template="main/index-collag-positiv"}
 </div>
 
 <div class="clear"></div>
@@ -92,7 +91,7 @@
 <div class="line"></div>
 <br>
 <br>
-{custom category="45" order="reads" limit="3" from="0" idexclude="56" template="index-collag-positiv"}
+{custom category="45" order="reads" limit="3" from="0" idexclude="56" template="main/index-collag-positiv"}
 
 </div>
 <div class="clear"></div>
@@ -123,7 +122,7 @@
 </ul> 
     
     
-{custom category="11,13-18,52,55" order="reads" limit="6" from="0"  template="index-collag-positiv"}
+{custom category="11,13-18,52,55" order="reads" limit="6" from="0"  template="main/index-collag-positiv"}
 </div>
 
 <div class="clear"></div>
@@ -135,7 +134,7 @@
 <li><a href="https://wikipet.by/pet-art/dizayn-mebel/">Дизайн</a></li>
 <li><a href="http://wikipet.by/pet-art/master-klass/">Мастер-классы</a></li>
 </ul>
-{custom category="41,91"  limit="3" from="0"  template="index-collag-art"}
+{custom category="41,91"  limit="3" from="0"  template="main/index-collag-art"}
 
 </div>
 
@@ -144,13 +143,10 @@
 <a href="http://wikipet.by/konkursy/"><h1 class="red">Конкурсы</h1></a>
 <div class="line"></div>
 
-{custom category="47" order="reads" limit="3" from="0" template="index-collag-positiv"}
+{custom category="47" order="reads" limit="3" from="0" template="main/index-collag-positiv"}
 
 </div>
 
-<!--==================
-DLE конец main-content
-===================-->
 	
 </div>
 

@@ -1,4 +1,60 @@
 [not-static=positiv,eto-vse-oni,katalog,index,obyavleniya-spisok]
+[not-category=11,20-25,29,37-39,40-44,46,13-18,49,27,52,54-56,60-71,99]
+
+
+<!--===========================
+саитбар c поиском по городам на всех страницах и категориях по умолчанию
+=============================-->
+<aside>
+[banner_right-sidebar-1]{banner_right-sidebar-1}[/banner_right-sidebar-1]
+<!--<div class="vertical_menu13">
+      <div class="vertical_menu13_header">
+	  <a href="http://wikipet.by/akcii-i-skidki/novosti-kompanii/"> <span>
+       новости
+          </span></a>
+      </div>
+        <div class="liniya"></div>
+  custom category="21"  limit="4" template="rightsidebar-news"
+	  
+	
+	  </div>-->
+  
+[banner_right-sidebar-2]{banner_right-sidebar-2}[/banner_right-sidebar-2]
+
+<!--<div class="vertical_menu12">
+      <div class="vertical_menu12_header">
+	  <span>
+       Сарафанное радио
+	   </span>
+      </div>
+        <div class="liniya"></div>
+      <div class="vertical_menu12_item">
+       <div class="vertical_menu12_title">Тимур</div>
+       <div class="vertical_menu12_text">This is Photoshop's version &nbsp;of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean</div>
+      </div>
+	  <div class="vertical_menu12_item">
+       <div class="vertical_menu12_title">Тимур</div>
+       <div class="vertical_menu12_text">This is Photoshop's version &nbsp;of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean</div>
+      </div>
+	  <div class="vertical_menu12_item">
+       <div class="vertical_menu12_title">Тимур</div>
+       <div class="vertical_menu12_text">This is Photoshop's version &nbsp;of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean</div>
+      </div>
+	  <div class="vertical_menu12_item">
+       <div class="vertical_menu12_title">Тимур</div>
+       <div class="vertical_menu12_text">This is Photoshop's version &nbsp;of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean</div>
+      </div>
+	  <div class="vertical_menu12_item">
+       <div class="vertical_menu12_title">Тимур</div>
+       <div class="vertical_menu12_text">This is Photoshop's version &nbsp;of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean</div>
+      </div>
+	
+	  </div>-->
+</aside>
+ <!--===========================
+ конец саитбар c поиском по городам на всех страницах и категориях по умолчанию
+=============================--> 
+[/not-category]
 
 [/not-static]
 [static=obyavleniya-spisok]

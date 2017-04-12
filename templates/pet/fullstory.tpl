@@ -76,7 +76,7 @@
 <div class="line" style="    margin-top: 50px;"></div>
 
    <h1 class="collage_header">ПОНРАВИЛОСЬ? ПОДЕЛИСЬ В СОЦ. СЕТЯХ</h1>
-  <div class="share42init" data-zero-counter="0" data image="http://wikipet.by/share42/icons.png" style="margin: 0 auto;width: 490px;margin-bottom:30px;"></div>
+  <div class="share42init" data-zero-counter="0" data image="http://wikipet.by/share42/icons.png" style="margin: 0 auto;width: 450px;margin-bottom:30px;"></div>
 <div class="line"></div>
     
     <div class="clear"></div>

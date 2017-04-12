@@ -8032,3 +8032,96 @@ margin-top: 35px;
     float: left;
     margin: 5px 12px 5px 0;
     max-width: calc(100% - 5px);
+        
+}
+
+    .specproekt{
+        width: 596px;
+        height: 300px;
+            border: 1px solid #e1e1e1;
+        float: left;
+    }
+    .text-spec, .img-spec{
+        width: 298px;
+        height: 300px;
+        float: left;
+    }
+    
+    .text-spec h2{
+       text-transform: uppercase;
+    font-family: BebasNeueRegular;
+    font-size: 30px;
+    color: #000;
+   padding-top: 25px;
+    padding-left: 25px;
+    }
+    .name-spec{
+         font-family: OpenSans;
+    font-size: 14px;
+    color: #b4b4b4;
+   padding-top: 0px;
+    padding-bottom: 22px;
+    padding-left: 25px; 
+    display: block;
+    font-weight: 600;
+    }
+    
+    .prof-spec{
+                font-family: OpenSans;
+    font-size: 14px;
+    color: #3a6177;
+   padding-top: 133px;
+    padding-bottom: 22px;
+    padding-left: 25px; 
+    display: block;
+    font-weight: 600; 
+    text-transform: uppercase;
+        
+    }
+   
+    .mozet-prigoditsya{width: 952px;
+    
+    }
+    
+    .mp-col-1{
+    float: left;
+        width: 302px;
+        height: 483px;
+        
+        
+    }
+     .mp-col-2, .mp-col-3{
+         margin-left: 23px;
+    float: left;
+        width: 302px;
+        height: 483px;
+        
+    }
+    
+    .mp{float: left;
+    width: 302px;
+        height: 230px;
+    }
+    
+   .mozet-prigoditsya .mp-col-1 div+div, .mp-col-2 div+div, .mp-col-3 div+div{
+      margin-top: 23px;  
+        
+    }
+    
+    .mp-f{
+          width: 302px;
+        height: 230px;
+        background: url({theme}/img/mp-f.png) no-repeat;  
+    }
+    .metka{
+        
+        display: block;
+        color: #fff;
+        font-size: 30px;
+        font-family: BebasNeueRegular;
+        margin-top: 195px;
+    margin-left: 15px;
+            position: absolute;
+        text-transform: uppercase;
+    }
+    
