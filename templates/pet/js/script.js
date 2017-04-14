@@ -73,24 +73,113 @@ $('.p-m-col-1 h1').click(function() {
            $('.popup__close').click(function() {
     vxod.css('display', 'none')
 });
+    
+  });
 
-    /*  социальные кнопки на главной слева */
-    $(window).on('load resize scroll', function () {
+  /* слайдер про */
 
-        if (!$('#glue').hasClass('fixed'))
-            glue_top = $('.empty').offset().top - 350;
+	$( document ).ready(function( $ ) {
+		$( '#example3' ).sliderPro({
+			width: 952,
+			height: 409,
+			fade: false,
+			arrows: true,
+			buttons: false,
+			fullScreen: false,
+			shuffle: true,
+			smallSize: 500,
+			mediumSize: 1000,
+			largeSize: 3000,
+			thumbnailArrows: true,
+			autoplay: false
+		});
+        
+  /*$('.slider-pro').hover(function(){
+  $('.sp-bottom-thumbnails').css('display', 'block');
+      $('.sp-thumbnail').css('margin-left', '0px');
+       $('.sp-layer').css('top', '8px');
+       $('.sp-layer').css('left', '8px');
+ });   */    
+        
+        
+	});
+	$( document ).ready(function( $ ) {
+		$( '#index_small_slider' ).sliderPro({
+			width: 950,
+			height: 300,
+			fade: false,
+			arrows: true,
+			buttons: false,
+			fullScreen: false,
+			shuffle: true,
+			thumbnailArrows: true,
+			autoplay: false
+		});     
+	});
+    
+	$( document ).ready(function( $ ) {
+		$( '#zizn-menu' ).sliderPro({
+			width: 952,
+			height: 60,
+			fade: false,
+			arrows: true,
+			buttons: false,
+			fullScreen: false,
+			shuffle: true,
+			thumbnailArrows: true,
+			autoplay: false
+		});     
+	});
 
-        var w_top = $(window).scrollTop();
-        if (w_top <= glue_top) {
-            $('.social-left').css('display', 'none');
-        } else {
-           $('.social-left').css('display', 'block');
-        }
-
-    });
+	$( document ).ready(function( $ ) {
+		$( '#index-slider-big' ).sliderPro({
+			width: 1200,
+			height: 405,
+			fade: false,
+			arrows: true,
+			buttons: false,
+			fullScreen: false,
+			shuffle: true,
+			thumbnailArrows: true,
+			autoplay: false
+		});     
+	});
     
 
 
-  });
+	$( document ).ready(function( $ ) {
+		$( '#index-menu' ).sliderPro({
+			width: 1200,
+			height: 95,
+			fade: false,
+			arrows: true,
+			buttons: false,
+			fullScreen: false,
+			shuffle: true,
+			thumbnailArrows: true,
+			autoplay: false
+		});     
+	});
+    
+
+
+	$( document ).ready(function( $ ) {
+		$( '#index_small_slider' ).sliderPro({
+			width: 950,
+			height: 300,
+			fade: false,
+			arrows: true,
+			buttons: false,
+			fullScreen: false,
+			shuffle: true,
+			thumbnailArrows: true,
+			autoplay: false
+		});     
+	});
+    
+
+
+
+
 
   

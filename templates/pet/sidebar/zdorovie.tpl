@@ -9,7 +9,8 @@
 <ul class="innerpage_menu-dress">
 <li><a href="https://wikipet.by/enciklopediya/"><span style="border-left:none;background: none;">Породы</span></a></li>
     
-<li class="button"><a href="https://wikipet.by/zdorove-i-pitanie-sobaki/zdorove-sobaki/"><span class="show">Здоровье</span></a></li>
+<li><a href="https://wikipet.by/zdorove-i-pitanie-sobaki/zdorove-sobaki/">
+    <span class="show">Здоровье</span></a></li>
 <li class="dropdown2" id="dropdown-show">
   <ul class="v-menu">
 <li><a href="https://wikipet.by/zdorove-i-pitanie-sobaki/zdorove-sobaki/622-privivki-sobakam.html"><span>Прививки для собак</span></a></li>

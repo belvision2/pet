@@ -4,52 +4,17 @@
             
             
 			<div class="sp-slide 1">
-	<img class="sp-image" src="../src/css/images/blank.gif" data-src="https://wikipet.by/templates/pet/img/takk.jpg"/>
+	<img class="sp-image" src="{theme}/img/blank.gif" data-src="https://wikipet.by/templates/pet/img/takk.jpg"/>
 			</div>
 
 	        <div class="sp-slide 2">
-	        	<img class="sp-image" src="../src/css/images/blank.gif" data-src="https://wikipet.by/templates/pet/img/takk.jpg"/>	
+	        	<img class="sp-image" src="{theme}/img/blank.gif" data-src="https://wikipet.by/templates/pet/img/takk.jpg"/>	
 			</div>
 
 			<div class="sp-slide 3">
-				<img class="sp-image" src="../src/css/images/blank.gif" data-src="https://wikipet.by/templates/pet/img/takk.jpg"/>
+				<img class="sp-image" src="{theme}/img/blank.gif" data-src="https://wikipet.by/templates/pet/img/takk.jpg"/>
 			</div>
 
-			<div class="sp-slide 4">
-				    	<img class="sp-image" src="../src/css/images/blank.gif" data-src="https://wikipet.by/templates/pet/img/takk.jpg"/>
-			</div>
-
-			<div class="sp-slide 5">
-				    	<img class="sp-image" src="../src/css/images/blank.gif" data-src="https://wikipet.by/templates/pet/img/takk.jpg"/>
-			</div>
-
-			<div class="sp-slide 6">
-				    	<img class="sp-image" src="../src/css/images/blank.gif" data-src="https://wikipet.by/templates/pet/img/takk.jpg"/>
-			</div>
-
-			<div class="sp-slide 7">
-				    	<img class="sp-image" src="../src/css/images/blank.gif" data-src="https://wikipet.by/templates/pet/img/takk.jpg"/>
-			</div>
-
-			<div class="sp-slide 8">
-				    	<img class="sp-image" src="../src/css/images/blank.gif" data-src="https://wikipet.by/templates/pet/img/takk.jpg"/>
-			</div>
-
-			<div class="sp-slide 9">
-				    	<img class="sp-image" src="../src/css/images/blank.gif" data-src="https://wikipet.by/templates/pet/img/takk.jpg"/>
-			</div>
-
-			<div class="sp-slide 10">
-				    	<img class="sp-image" src="../src/css/images/blank.gif" data-src="https://wikipet.by/templates/pet/img/takk.jpg"/>
-			</div>
-            
-            	<div class="sp-slide 11">
-				    	<img class="sp-image" src="../src/css/images/blank.gif" data-src="https://wikipet.by/templates/pet/img/takk.jpg"/>
-           </div>
-
-	        <div class="sp-slide 12">
-	   <img class="sp-image" src="../src/css/images/blank.gif" data-src="https://wikipet.by/templates/pet/img/takk.jpg"/>
-			</div>
 	
 		</div>
     </div>

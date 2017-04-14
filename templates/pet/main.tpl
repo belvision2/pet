@@ -7,140 +7,15 @@
 	<link rel="stylesheet" href="{THEME}/css/style.css"  type="text/css" media="all" />
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
 <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script><![endif]-->
-       [category=42,44,20,99]
+    [category=42,44,20,99]
     <script type="text/javascript" src="http://wikipet.by/templates/pet/js/mootools.js"></script>
      <script type="text/javascript" src="http://wikipet.by/templates/pet/js/jquery.easing.1.3.js"></script>
-
    [/category]
 
 <link rel="stylesheet" type="text/css" href="{THEME}/dist/css/slider-pro.css" media="screen"/>
 <script type="text/javascript" src="{THEME}/libs/jquery-1.11.0.min.js"></script>
 <script type="text/javascript" src="{THEME}/dist/js/jquery.sliderPro.js"></script>
- [category=22,60-71,99,42]
-<script type="text/javascript">
-	$( document ).ready(function( $ ) {
-		$( '#example3' ).sliderPro({
-			width: 952,
-			height: 409,
-			fade: false,
-			arrows: true,
-			buttons: false,
-			fullScreen: false,
-			shuffle: true,
-			smallSize: 500,
-			mediumSize: 1000,
-			largeSize: 3000,
-			thumbnailArrows: true,
-			autoplay: false
-		});
-        
-  /*$('.slider-pro').hover(function(){
-  $('.sp-bottom-thumbnails').css('display', 'block');
-      $('.sp-thumbnail').css('margin-left', '0px');
-       $('.sp-layer').css('top', '8px');
-       $('.sp-layer').css('left', '8px');
- });   */    
-        
-        
-	});
-	$( document ).ready(function( $ ) {
-		$( '#index_small_slider' ).sliderPro({
-			width: 950,
-			height: 300,
-			fade: false,
-			arrows: true,
-			buttons: false,
-			fullScreen: false,
-			shuffle: true,
-			thumbnailArrows: true,
-			autoplay: false
-		});     
-	});
-    
-	$( document ).ready(function( $ ) {
-		$( '#zizn-menu' ).sliderPro({
-			width: 952,
-			height: 95,
-			fade: false,
-			arrows: true,
-			buttons: false,
-			fullScreen: false,
-			shuffle: true,
-			thumbnailArrows: true,
-			autoplay: false
-		});     
-	});
-</script>
-    [/category]
-     [static=index]
-<script type="text/javascript">
-	$( document ).ready(function( $ ) {
-		$( '#index-slider-big' ).sliderPro({
-			width: 1200,
-			height: 405,
-			fade: false,
-			arrows: true,
-			buttons: false,
-			fullScreen: false,
-			shuffle: true,
-			thumbnailArrows: true,
-			autoplay: false
-		});     
-	});
-    
-
-</script>
-    <script type="text/javascript">
-	$( document ).ready(function( $ ) {
-		$( '#index-menu' ).sliderPro({
-			width: 1200,
-			height: 95,
-			fade: false,
-			arrows: true,
-			buttons: false,
-			fullScreen: false,
-			shuffle: true,
-			thumbnailArrows: true,
-			autoplay: false
-		});     
-	});
-    
-
-</script>
-        <script type="text/javascript">
-	$( document ).ready(function( $ ) {
-		$( '#index_small_slider' ).sliderPro({
-			width: 950,
-			height: 300,
-			fade: false,
-			arrows: true,
-			buttons: false,
-			fullScreen: false,
-			shuffle: true,
-			thumbnailArrows: true,
-			autoplay: false
-		});     
-	});
-    
-
-</script>
-    [/static]
-    <script src="{THEME}/js/jsCarousel-2.0.0.js" type="text/javascript"></script>
-
-    <link href="{THEME}/css/jsCarousel-2.0.0.css" rel="stylesheet" type="text/css" />
-
-    <script type="text/javascript">
-        $(document).ready(function() {
-           $('#carouselh').jsCarousel({ onthumbnailclick: function(src) { alert(src); }, autoscroll: false, circular: true, masked: false, itemstodisplay: 4, orientation: 'h' }); 
-               $('#carouselh2').jsCarousel({ onthumbnailclick: function(src) { alert(src); }, autoscroll: false, circular: true, masked: false, itemstodisplay: 1, orientation: 'h' }); 
-            $('#carouselh3').jsCarousel({ onthumbnailclick: function(src) { alert(src); }, autoscroll: false, circular: true, masked: false, itemstodisplay: 5, orientation: 'h' });
-              $('#carouselh4').jsCarousel({ onthumbnailclick: function(src) { alert(src); }, autoscroll: false, circular: true, masked: false, itemstodisplay: 6, orientation: 'h' });
-            $('#carouselh5').jsCarousel({ onthumbnailclick: function(src) { alert(src); }, autoscroll: false, circular: true, masked: false, itemstodisplay: 5, orientation: 'h' });
-        });       
-        
-    </script>
-     <script src="{THEME}/js/script.js"></script>
-
+<script src="{THEME}/js/script.js"></script>
 </head>
 <body>
 <div class="wrapper">
@@ -179,6 +54,7 @@
         
 	</script>
  [static=index] <!--социальные кнопки слева-->
+    <script src="{THEME}/js/social.js"></script>
     <div class="social-left">
       <div id="l-vk"></div>
         <div id="l-ok"></div>

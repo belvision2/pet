@@ -5,50 +5,15 @@
 <div class="poisk" >
 
 <div class="hr" id="login_pane">
-<div class="poisk-menu" style="    float: left;
-    width: 131px;
-  
-    height: 43px;
-    margin-top: 42px;
-    margin-left: 74px;
-   background: url(/templates/pet/img/seach.png) 11px 14px no-repeat;
-    padding-left: 47px;
-    padding-top: 14px;"><a href="#" onmouseover="otkr()" style="color: #616161;">Поиск</a></div>
-<div class="ob-menu" style="float: left;
-    width: 197px;
-background: url(/templates/pet/img/Ads.png) 20px 8px no-repeat;
-    margin-top: 42px;
-    height: 43px;
-   padding-top: 13px;
-    padding-left: 62px;
-    "><a href="#">Объявления</a></div>
-<div class="blog-menu" style="float: left;
-    width: 93px;
-background: url(/templates/pet/img/Blog.png) 20px 13px no-repeat;
-    margin-top: 42px;
-    height: 43px;
-    padding-top: 13px;
-    padding-left: 61px;"><a href="#">Блог</a></div>
-  <div class="afisha-menu" style="float: left;
-    width: 93px;
-  background: url(/templates/pet/img/Afisha.png) 51px 13px no-repeat;
-    margin-top: 42px;
-    height: 43px;
-    padding-top: 13px;
-    padding-left: 86px;"><a href="#">Афиша</a></div>
-    <div class="login" style="    float: left;
-    width: 100px;
-   
-    margin-top: 42px;
-    height: 43px;
-    padding-top: 4px;
-    padding-left: 41px;">{login}</div>
+<div class="poisk-menu"><a href="#" onmouseover="otkr()" style="color: #616161;">Поиск</a></div>
+<div class="ob-menu"><a href="#">Объявления</a></div>
+<div class="blog-menu"><a href="#">Блог</a></div>
+  <div class="afisha-menu"><a href="#">Афиша</a></div>
+    <div class="login">{login}</div>
 </div>
 
-      <div class="enter" id="text2" style="display:none;float: left;
-    width: 990px;
-    height: 115px;">
-                      <div class="m1" style="height:105px;">
+      <div class="enter" id="text2">
+                      <div class="m1">
 					  		<form id="q_search"  method="post">
 								<div class="q_search" style="margin-top: 0px;">
                         <input id="story" name="story" type="search" class="seach" placeholder="Впишите Ваш Запрос">
@@ -58,28 +23,10 @@ background: url(/templates/pet/img/Blog.png) 20px 13px no-repeat;
 					   </form>
 					  </div>
 					  
-  <div class="hrl" id="text2" style="float:left; height: 105px;   width: 520px;">
-     <div style="float: left;
-    width: 93px;
-background: url(/templates/pet/img/Blog.png) 67px 13px no-repeat;
-    margin-top: 42px;
-    height: 43px;
-    padding-top: 13px;
-    padding-left: 107px;"><a href="#">Блог</a></div>
-     <div style="float: left;
-    width: 93px;
-  background: url(/templates/pet/img/Afisha.png) 51px 13px no-repeat;
-    margin-top: 42px;
-    height: 43px;
-    padding-top: 13px;
-    padding-left: 86px;"><a href="#">Афиша</a></div>
-        <div class="login" style="    float: left;
-    width: 100px;
-   
-    margin-top: 42px;
-    height: 43px;
-    padding-top: 4px;
-    padding-left: 41px;">{login}</div>
+  <div class="hrl" id="text2">
+     <div class="blog-div"><a href="#">Блог</a></div>
+     <div class="afisha-div"><a href="#">Афиша</a></div>
+        <div class="login2">{login}</div>
   </div>
       </div>
 

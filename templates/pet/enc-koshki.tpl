@@ -14,7 +14,7 @@ DLE
 	<div id="example3" class="slider-pro">
 		<div class="sp-slides">
 			<div class="sp-slide 1">
-				<img class="sp-image" src="../src/css/images/blank.gif" 
+				<img class="sp-image" src="{theme}/img/blank.gif" 
 					data-src="[xfvalue_image_url_img-slider-big1]"
 					data-small="[xfvalue_image_url_img-slider-big1]"
 					data-medium="[xfvalue_image_url_img-slider-big1]"
@@ -33,7 +33,7 @@ DLE
 			</div>
 
 	        <div class="sp-slide 2">
-	        	<img class="sp-image" src="../src/css/images/blank.gif" 
+	        	<img class="sp-image" src="{theme}/img/blank.gif" 
 					data-src="[xfvalue_image_url_img-slider-big2]"
 					data-small="[xfvalue_image_url_img-slider-big2]"
 					data-medium="[xfvalue_image_url_img-slider-big2]"
@@ -52,7 +52,7 @@ DLE
 			</div>
 
 			<div class="sp-slide 3">
-				<img class="sp-image" src="../src/css/images/blank.gif" 
+				<img class="sp-image" src="{theme}/img/blank.gif" 
 					data-src="[xfvalue_image_url_img-slider-big3]"
 					data-small="[xfvalue_image_url_img-slider-big3]"
 					data-medium="[xfvalue_image_url_img-slider-big3]"
@@ -69,7 +69,7 @@ DLE
 			</div>
 
 			<div class="sp-slide 4">
-				    	<img class="sp-image" src="../src/css/images/blank.gif" 
+				    	<img class="sp-image" src="{theme}/img/blank.gif" 
 					data-src="[xfvalue_image_url_img-slider-big4]"
 					data-small="[xfvalue_image_url_img-slider-big4]"
 					data-medium="[xfvalue_image_url_img-slider-big4]"
@@ -84,7 +84,7 @@ DLE
 			</div>
 
 			<div class="sp-slide 5">
-				    	<img class="sp-image" src="../src/css/images/blank.gif" 
+				    	<img class="sp-image" src="{theme}/img/blank.gif" 
 					data-src="[xfvalue_image_url_img-slider-big5]"
 					data-small="[xfvalue_image_url_img-slider-big5]"
 					data-medium="[xfvalue_image_url_img-slider-big5]"
@@ -99,7 +99,7 @@ DLE
 			</div>
 
 			<div class="sp-slide 6">
-				    	<img class="sp-image" src="../src/css/images/blank.gif" 
+				    	<img class="sp-image" src="{theme}/img/blank.gif" 
 					data-src="[xfvalue_image_url_img-slider-big6]"
 					data-small="[xfvalue_image_url_img-slider-big6]"
 					data-medium="[xfvalue_image_url_img-slider-big6]"
@@ -114,7 +114,7 @@ DLE
 			</div>
 
 			<div class="sp-slide 7">
-				    	<img class="sp-image" src="../src/css/images/blank.gif" 
+				    	<img class="sp-image" src="{theme}/img/blank.gif" 
 					data-src="[xfvalue_image_url_img-slider-big7]"
 					data-small="[xfvalue_image_url_img-slider-big7]"
 					data-medium="[xfvalue_image_url_img-slider-big7]"
@@ -129,7 +129,7 @@ DLE
 			</div>
 
 			<div class="sp-slide 8">
-				    	<img class="sp-image" src="../src/css/images/blank.gif" 
+				    	<img class="sp-image" src="{theme}/img/blank.gif" 
 					data-src="[xfvalue_image_url_img-slider-big8]"
 					data-small="[xfvalue_image_url_img-slider-big8]"
 					data-medium="[xfvalue_image_url_img-slider-big8]"
@@ -143,7 +143,7 @@ DLE
 			</div>
 
 			<div class="sp-slide 9">
-				    	<img class="sp-image" src="../src/css/images/blank.gif" 
+				    	<img class="sp-image" src="{theme}/img/blank.gif" 
 					data-src="[xfvalue_image_url_img-slider-big9]"
 					data-small="[xfvalue_image_url_img-slider-big9]"
 					data-medium="[xfvalue_image_url_img-slider-big9]"
@@ -158,7 +158,7 @@ DLE
 			</div>
 
 			<div class="sp-slide 10">
-				    	<img class="sp-image" src="../src/css/images/blank.gif" 
+				    	<img class="sp-image" src="{theme}/img/blank.gif" 
 					data-src="[xfvalue_image_url_img-slider-big10]"
 					data-small="[xfvalue_image_url_img-slider-big10]"
 					data-medium="[xfvalue_image_url_img-slider-big10]"
@@ -171,7 +171,7 @@ DLE
 				</p>
 			</div>
             	<div class="sp-slide 11">
-				    	<img class="sp-image" src="../src/css/images/blank.gif" 
+				    	<img class="sp-image" src="{theme}/img/blank.gif" 
 					data-src="[xfvalue_image_url_img-slider-big11]"
 					data-small="[xfvalue_image_url_img-slider-big11]"
 					data-medium="[xfvalue_image_url_img-slider-big11]"
@@ -190,7 +190,7 @@ DLE
 			</div>
 
 	        <div class="sp-slide 12">
-	        	    	<img class="sp-image" src="../src/css/images/blank.gif" 
+	        	    	<img class="sp-image" src="{theme}/img/blank.gif" 
 					data-src="[xfvalue_image_url_img-slider-big12]"
 					data-small="[xfvalue_image_url_img-slider-big12]"
 					data-medium="[xfvalue_image_url_img-slider-big12]"
