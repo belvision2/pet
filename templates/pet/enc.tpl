@@ -322,9 +322,16 @@ DLE
        <p class="text-uznaite">Популярные товары</p>
       </div>
 
-  	<div id="demo-right">
-                    <div id="hWrapper">
-                        <div id="carouselh">
+
+    
+    
+        <div class="index_small_slider">
+	<div id="index_small_slider" class="slider-pro">
+		<div class="sp-slides">
+            
+    
+            <div class="sp-slide 1">
+     <div>
                          <div>
                                 <img alt="" src="[xfvalue_image_url_img-korm1]" />
                                 <span class="thumbnail-text">[xfgiven_name-korm1][xfvalue_name-korm1][/xfgiven_name-korm1]</span>
@@ -344,8 +351,11 @@ DLE
                                 <img alt="" src="[xfvalue_image_url_img-korm4]" />
                                 <span class="thumbnail-text">[xfgiven_name-korm4][xfvalue_name-korm4][/xfgiven_name-korm4]</span>
                             <span class="thumbnail-text">Подробнее</span></div>
-          
-                            <div>
+            </div>
+           
+           
+             <div class="sp-slide 2">
+         <div>
                                 <img alt="" src="[xfvalue_image_url_img-korm1]" />
                                 <span class="thumbnail-text">[xfgiven_name-korm1][xfvalue_name-korm1][/xfgiven_name-korm1]</span>
                             <span class="thumbnail-text">Подробнее</span>
@@ -364,12 +374,15 @@ DLE
                                 <img alt="" src="[xfvalue_image_url_img-korm4]" />
                                 <span class="thumbnail-text">[xfgiven_name-korm4][xfvalue_name-korm4][/xfgiven_name-korm4]</span>
                             <span class="thumbnail-text">Подробнее</span></div>
-                    
-                            
-                        </div>
-                    </div>
-                  
-                </div>
+            </div>
+           
+
+	
+		</div>
+    </div>
+</div>
+    
+       <div class="clear"></div>  
 
 </div>
 <div class="clear"></div>

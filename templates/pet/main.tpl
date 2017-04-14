@@ -12,11 +12,11 @@
      <script type="text/javascript" src="http://wikipet.by/templates/pet/js/jquery.easing.1.3.js"></script>
 
    [/category]
- [category=22,60-71]
+
 <link rel="stylesheet" type="text/css" href="{THEME}/dist/css/slider-pro.css" media="screen"/>
 <script type="text/javascript" src="{THEME}/libs/jquery-1.11.0.min.js"></script>
 <script type="text/javascript" src="{THEME}/dist/js/jquery.sliderPro.js"></script>
-
+ [category=22,60-71,99,42]
 <script type="text/javascript">
 	$( document ).ready(function( $ ) {
 		$( '#example3' ).sliderPro({
@@ -43,12 +43,89 @@
         
         
 	});
+	$( document ).ready(function( $ ) {
+		$( '#index_small_slider' ).sliderPro({
+			width: 950,
+			height: 300,
+			fade: false,
+			arrows: true,
+			buttons: false,
+			fullScreen: false,
+			shuffle: true,
+			thumbnailArrows: true,
+			autoplay: false
+		});     
+	});
+    
+	$( document ).ready(function( $ ) {
+		$( '#zizn-menu' ).sliderPro({
+			width: 952,
+			height: 95,
+			fade: false,
+			arrows: true,
+			buttons: false,
+			fullScreen: false,
+			shuffle: true,
+			thumbnailArrows: true,
+			autoplay: false
+		});     
+	});
+</script>
+    [/category]
+     [static=index]
+<script type="text/javascript">
+	$( document ).ready(function( $ ) {
+		$( '#index-slider-big' ).sliderPro({
+			width: 1200,
+			height: 405,
+			fade: false,
+			arrows: true,
+			buttons: false,
+			fullScreen: false,
+			shuffle: true,
+			thumbnailArrows: true,
+			autoplay: false
+		});     
+	});
     
 
 </script>
-    [/category]
-      
-     <script src="{THEME}/js/jsCarousel-2.0.0.js" type="text/javascript"></script>
+    <script type="text/javascript">
+	$( document ).ready(function( $ ) {
+		$( '#index-menu' ).sliderPro({
+			width: 1200,
+			height: 95,
+			fade: false,
+			arrows: true,
+			buttons: false,
+			fullScreen: false,
+			shuffle: true,
+			thumbnailArrows: true,
+			autoplay: false
+		});     
+	});
+    
+
+</script>
+        <script type="text/javascript">
+	$( document ).ready(function( $ ) {
+		$( '#index_small_slider' ).sliderPro({
+			width: 950,
+			height: 300,
+			fade: false,
+			arrows: true,
+			buttons: false,
+			fullScreen: false,
+			shuffle: true,
+			thumbnailArrows: true,
+			autoplay: false
+		});     
+	});
+    
+
+</script>
+    [/static]
+    <script src="{THEME}/js/jsCarousel-2.0.0.js" type="text/javascript"></script>
 
     <link href="{THEME}/css/jsCarousel-2.0.0.css" rel="stylesheet" type="text/css" />
 
@@ -62,7 +139,6 @@
         });       
         
     </script>
-
      <script src="{THEME}/js/script.js"></script>
 
 </head>
@@ -75,177 +151,13 @@
 
    <div id="content">
     {include file="sidebar/rightsidebar.tpl"}
-        [category=1-1000]{speedbar}[/category]
+      [not-static=index] {speedbar}[/not-static]
        	[category=54]{include file="ivan.tpl"}[/category]
+
      
-
-	
-
-
-		     {info}
-		     {content}
-      
-       [available=main]
-
-
-           <div id="main_content">
-<div id="content">
-<div id="viberi-pitomca">
-<h1 class="blue">Выбери питомца</h1>
-<h4 class="description">И узнай о нем больше</h4>
-    <div class="clear"></div>
-<div class="line"></div>
-    <div class="clear"></div>
-	<div id="demo-right">
-                    <div id="hWrapper">
-                        <div id="carouselh">
-                         <div>
-                                <img alt="" src="{THEME}/img/img_5.jpg" /><br />
-                                <span class="thumbnail-text">Грызуны</span></div>
-                         <div>
-                                <img alt="" src="{THEME}/img/img_6.jpg" /><br />
-                                <span class="thumbnail-text">Террариумные</span></div>
-                            <div>
-                                <img alt="" src="{THEME}/img/img_7.jpg" /><br />
-                                <span class="thumbnail-text">Другие</span></div>
-                            <!--<div>
-                                <img alt="" src="{THEME}/img/img_8.jpg" /><br />
-                                <span class="thumbnail-text">Другие</span></div>-->
-          
-                            <div>
-                                <img alt="" src="{THEME}/img/img_1.jpg" /><br />
-                                <span class="thumbnail-text">Аквариумные</span></div>
-                                             <div>
-                                <img alt="" src="{THEME}/img/img_2.jpg" /><br />
-                                <span class="thumbnail-text">Кошки</span></div>
-                            <div>
-                                <img alt="" src="{THEME}/img/img_3.jpg" /><br />
-                                <span class="thumbnail-text">Птицы</span></div>
-                            <div>
-                                <img alt="" src="{THEME}/img/img_4.jpg" /><br />
-                                <span class="thumbnail-text">Собаки</span></div>
-                    
-                            
-                        </div>
-                    </div>
-                  
-                </div>
-
-</div>
-<div class="empty">
-    {custom category="22,60-65" from="0" limit="1" template="main/index-collag1"}
-
-<div class="col-2">
-	{custom category="11,13-18,52,55"  limit="1" from="0" template="main/index-collag2"}
-{custom category="24,25,27,49"  limit="1" from="0" idexclude="56" template="main/index-collag2"}
-</div>
-<div class="col-3">
-{custom category="42,99"  limit="1" from="1" idexclude="56" template="main/index-collag3"}
-{custom category="53,100,91"  limit="1" from="0" idexclude="56" template="main/index-collag3"}
-{custom category="59,80,89" limit="1" from="2" idexclude="56" template="main/index-collag4"}
-</div>
-</div>
-<div id="positiv">
-    <a href="http://wikipet.by/positive/"><h1 class="red">позитив</h1></a>
-<div class="line"></div>
-<ul class="main-page-block-menu">
-<li><a href="https://wikipet.by/positive/kreativ-foto/">Фото</a></li>
-<li><a href="#">Видео</a></li>
-<li><a href="https://wikipet.by/positive/veselie-istorii/">Истории</a></li>
-<li><a href="https://wikipet.by/positive/v-svobodnoe-vremya/">В свободное время</a></li>
-<li><a href="http://wikipet.by/positive/v-svobodnoe-vremya/152-astrologiya.html">Астрология</a></li>
-</ul>
-{custom category="24,25,49" order="reads" limit="6" from="0" idexclude="56" template="main/index-collag-positiv"}
-</div>
-
-<div class="clear"></div>
-<div id="zdorovie-i-pitanie">
-<a href="http://wikipet.by/zdorove-i-pitanie/"><h1 class="blue">жизнь с питомцем</h1></a>
-<div class="line"></div>
-<ul class="main-page-block-menu1">
-
-<li><a href="https://wikipet.by/zdorove-i-pitanie-sobaki/zdorove-sobaki/">Здоровье</a></li>
-<li><a href="https://wikipet.by/zdorove-i-pitanie-sobaki/pitanie-sobaki/">Питание</a></li>
-<li><a href="https://wikipet.by/zdorove-i-pitanie-sobaki/zozh/">ЗОЖ</a></li>
-<li><a href="https://wikipet.by/zdorove-i-pitanie-sobaki/uhod-i-gigiena/">Уход и гигиена</a></li>
-<li><a href="https://wikipet.by/zdorove-i-pitanie-sobaki/psihologiya/">Психология</a></li>
-    <li><a href="https://wikipet.by/zdorove-i-pitanie-sobaki/dressirovka-i-vospitanie/">Дрессировка и воспитание</a></li>
-</ul>
-{custom category="42,99" limit="6" from="0" idexclude="56" template="main/index-collag-positiv"}
-</div>
-
-<div class="clear"></div>
-<div id="govoriyat-specilisti" style="display:none;">
-<a href="http://wikipet.by/govoryat-eksperty/"><h1 class="blue">говорят специалисты</h1></a>
-<div class="line"></div>
-<br>
-<br>
-{custom category="45" order="reads" limit="3" from="0" idexclude="56" template="main/index-collag-positiv"}
-
-</div>
-<div class="clear"></div>
-<div id="wikipet-zhurnal">
-<a href="http://wikipet.by/wikipet-zhurnal/"><h1 class="red">wikipet-журнал</h1></a>
-<div class="line"></div>
-<ul class="main-page-block-menu2">
-    <li><a href="#">Тема дня</a></li>
-    <li><a href="https://wikipet.by/positive/animal-fashion/">Animal Fashion</a></li>
-    <li><a href="https://wikipet.by/positive/animalistika/">Анималистика</a></li>
-    <li><a href="https://wikipet.by/positive/zhivotnye-v-biznese/">Животные в бизнесе</a></li>
-    <li><a href="https://wikipet.by/positive/zanimatelnaya-psihologiya/">Занимательная психология</a></li>
-
+       {info}
+       {content}
     
-</ul>
-    
-    
-   <div class="line"></div>
-<ul class="main-page-block-menu">
-    <li><a href="https://wikipet.by/positive/mifologiya-i-simvolika/">Мифология и символика</a></li>
-    <li><a href="https://wikipet.by/positive/zhivotnye-tvorcy/">Животные творцы</a></li>
-    <li><a href="https://wikipet.by/positive/personi/">Персоны</a></li>
-    <li><a href="https://wikipet.by/positive/pryamoy-reportaj/">Прямой репортаж</a></li>
-    <li><a href="https://wikipet.by/positive/geroi/">Герои нашего времени</a></li>
-  
-
- 
-</ul> 
-    
-    
-{custom category="11,13-18,52,55" order="reads" limit="6" from="0"  template="main/index-collag-positiv"}
-</div>
-
-<div class="clear"></div>
-<div id="art">
-<a href="http://wikipet.by/pet-art/"><h1 class="red">Творчество</h1></a>
-<div class="line"></div>
-<ul class="main-page-block-menu">
-<li><a href="http://wikipet.by/pet-art/hand-made/">Hand-made</a></li>
-<li><a href="https://wikipet.by/pet-art/dizayn-mebel/">Дизайн</a></li>
-<li><a href="http://wikipet.by/pet-art/master-klass/">Мастер-классы</a></li>
-</ul>
-{custom category="41,91"  limit="3" from="0"  template="main/index-collag-art"}
-
-</div>
-
-<div class="clear"></div>
-<div id="conkursi" style="display:none">
-<a href="http://wikipet.by/konkursy/"><h1 class="red">Конкурсы</h1></a>
-<div class="line"></div>
-
-{custom category="47" order="reads" limit="3" from="0" template="main/index-collag-positiv"}
-
-</div>
-
-	
-</div>
-
-           </div><!--main_content-->
-
-
-       [/available]
-       
-       
-       
        
 
 	   </div><!-- content -->

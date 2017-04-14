@@ -1,29 +1,22 @@
 
-           <div id="main_content">
+<div id="main_content">
 <div id="content">
 <div id="viberi-pitomca">
 <h1 class="blue">Выбери питомца</h1>
 <h4 class="description">И узнай о нем больше</h4>
-    <div class="clear"></div>
+<div class="clear"></div>
 <div class="line"></div>
     <div class="clear"></div>
-	<div id="demo-right">
-                    <div id="hWrapper">
-                        <div id="carouselh">
-                         <div>
-                                <img alt="" src="{THEME}/img/img_5.jpg" /><br />
-                                <span class="thumbnail-text">Грызуны</span></div>
-                         <div>
-                                <img alt="" src="{THEME}/img/img_6.jpg" /><br />
-                                <span class="thumbnail-text">Террариумные</span></div>
-                            <div>
-                                <img alt="" src="{THEME}/img/img_7.jpg" /><br />
-                                <span class="thumbnail-text">Другие</span></div>
-                            <!--<div>
-                                <img alt="" src="{THEME}/img/img_8.jpg" /><br />
-                                <span class="thumbnail-text">Другие</span></div>-->
-          
-                            <div>
+    
+    
+    
+    <div class="index_small_slider">
+	<div id="index_small_slider" class="slider-pro">
+		<div class="sp-slides">
+            
+    
+            <div class="sp-slide 1">
+     <div>
                                 <img alt="" src="{THEME}/img/img_1.jpg" /><br />
                                 <span class="thumbnail-text">Аквариумные</span></div>
                                              <div>
@@ -35,12 +28,28 @@
                             <div>
                                 <img alt="" src="{THEME}/img/img_4.jpg" /><br />
                                 <span class="thumbnail-text">Собаки</span></div>
-                    
-                            
-                        </div>
-                    </div>
-                  
-                </div>
+            </div>
+           
+           
+             <div class="sp-slide 2">
+       <div>
+                                <img alt="" src="{THEME}/img/img_5.jpg" /><br />
+                                <span class="thumbnail-text">Грызуны</span></div>
+                         <div>
+                                <img alt="" src="{THEME}/img/img_6.jpg" /><br />
+                                <span class="thumbnail-text">Террариумные</span></div>
+                            <div>
+                                <img alt="" src="{THEME}/img/img_7.jpg" /><br />
+                                <span class="thumbnail-text">Другие</span></div>
+            </div>
+           
+
+	
+		</div>
+    </div>
+</div>
+    
+     <div class="clear"></div>
 
 </div>
 <div class="empty">

@@ -251,9 +251,9 @@ display:none;
 
 <div class="clear"></div>
 <div class="content-dress">
-  {custom category="99" order="reads" limit="3" from="0"  template="index-collag-art"}
-    {custom category="99" order="reads" limit="3" from="3"  template="index-collag-art"}
-    {custom category="99" order="reads" limit="3" from="6"  template="index-collag-art"}
+  {custom category="42" order="reads" limit="3" from="0"  template="main/index-collag-art"}
+    {custom category="42" order="reads" limit="3" from="3"  template="main/index-collag-art"}
+    {custom category="42" order="reads" limit="3" from="4"  template="main/index-collag-art"}
 
    
 </div>

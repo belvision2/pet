@@ -6168,7 +6168,7 @@ padding: 7px;
 	
 	float: left;
 	width: 952px;
-	height: 427px;
+
 }
 
 .enc_gorizontal_menu10 {
@@ -6958,7 +6958,7 @@ ul.top-slider-menu {
 
 
 #viberi-pitomca {
-	padding-top: 45px;
+	padding-top: 20px;
 }
 
 #positiv{
@@ -8125,3 +8125,105 @@ margin-top: 35px;
         text-transform: uppercase;
     }
     
+.index_top_slider {
+  margin: 0 auto;
+	width: 1200px;
+	height: 405px;
+
+}
+.index_menu_slider {
+  margin: 0 auto;
+	width: 1200px;
+	height: 95px;
+
+}
+.index-slider-big .sp-horizontal .sp-arrows {
+    width: 100%;
+    left: 0;
+    top: 50%;
+    margin-top: -30px;
+}
+   .index_menu_slider .sp-slide div{
+    display: inline-block;
+    margin-right: 78px;
+     height: 95px;
+        line-height: 87px;
+    }
+    
+   .index_menu_slider .sp-slide div a {
+    color: #4d4d4d;
+    text-decoration: none;
+    font-family: OpenSans;
+    font-size: 20px;
+}
+    
+    
+   .index_menu_slider .sp-next-arrow:before, .index_menu_slider .sp-next-arrow:after {
+    content: '';
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    background-color: #c5c5c5;
+}
+    
+   .index_menu_slider .sp-previous-arrow:before, .index_menu_slider .sp-previous-arrow:after, .index_menu_slider .sp-previous-arrow{
+        display: none;
+    }
+    
+   .index_menu_slider .sp-horizontal .sp-arrows {
+    width: 100%;
+    left: 0;
+    top: 50%;
+    margin-top: -35px;
+    }
+.index_small_slider .thumbnail-text {
+    color: #444444;
+    font-size: 20px;
+    letter-spacing: 0;
+    text-align: center;
+    font-family: OpenSans;
+    display:block;
+}
+.index_small_slider .sp-slide div{
+
+float: left;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.index_small_slider img {     width: 224px;
+    height: 225px; }
+
+.index_small_slider {
+
+	width: 950px;
+	height: 300px;
+
+}
+
+   .index_small_slider .sp-next-arrow:before, .index_small_slider .sp-next-arrow:after {
+    content: '';
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    background-color: #b7b7b7;
+}
+    
+   .index_small_slider .sp-previous-arrow:before, .index_small_slider .sp-previous-arrow:after, .index_menu_slider .sp-previous-arrow{
+         content: '';
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    background-color: #b7b7b7;
+    }
+    
+   .index_small_slider .sp-horizontal .sp-arrows {
+    width: 100%;
+    left: 0;
+    top: 50%;
+    margin-top: -35px;
+    }
+.zizn_menu {
+    width: 952px;
+	height: 95px;
+}
