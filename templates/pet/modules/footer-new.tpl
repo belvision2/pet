@@ -7,10 +7,10 @@
 <div class="f-col-4">
   <div class="f-col-4-1">
     <ul>
-      <li><a href="#">О нас</a></li>
-        <li><a href="#">Редакционная политика</a></li>
-        <li><a href="#">Рекламодателям</a></li>
-        <li><a href="#">Договор публичной оферты</a></li>
+      <li><a href="https://wikipet.by/o-nas.html">О нас</a></li>
+        <li><a href="https://wikipet.by/redakcionnaya-politika.html">Редакционная политика</a></li>
+        <li><a href="https://wikipet.by/reklamodatelyam.html">Рекламодателям</a></li>
+        <li><a href="https://wikipet.by/dogovor-publichnoy-oferti.html">Договор публичной оферты</a></li>
        <!-- <li><a href="#">Наши партнеры</a></li>-->
       </ul>
     

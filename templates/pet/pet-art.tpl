@@ -71,7 +71,7 @@
    
 <div class="clear"></div>
 
-<h1 class="hndmd-h1">товар дня</h1>
+<!--<h1 class="hndmd-h1">товар дня</h1>
 <div class="clear"></div>
 
     
@@ -117,7 +117,7 @@
                         </div>
                     </div>
                   
-                </div>
+                </div>-->
 
       
 

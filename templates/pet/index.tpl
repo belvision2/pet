@@ -2,7 +2,7 @@
 <div id="main_content">
 <div id="content">
 <div id="viberi-pitomca">
-<h1 class="blue">Выбери питомца</h1>
+<a href="http://wikipet.by/enciklopediya/"><h1 class="blue">Выбери питомца</h1></a>
 <h4 class="description">И узнай о нем больше</h4>
 <div class="clear"></div>
 <div class="line"></div>
@@ -53,7 +53,7 @@
 
 </div>
 <div class="empty">
-    {custom category="22,60-65" from="0" limit="1" template="main/index-collag1"}
+    {custom category="110" from="0" limit="1" template="main/index-collag1"}
 
 <div class="col-2">
 	{custom category="11,13-18,52,55"  limit="1" from="0" template="main/index-collag2"}
@@ -80,7 +80,7 @@
 
 <div class="clear"></div>
 <div id="zdorovie-i-pitanie">
-<a href="http://wikipet.by/zdorove-i-pitanie/"><h1 class="blue">жизнь с питомцем</h1></a>
+<a href="https://wikipet.by/zdorove-i-pitanie-sobaki/"><h1 class="blue">жизнь с питомцем</h1></a>
 <div class="line"></div>
 <ul class="main-page-block-menu1">
 
@@ -91,7 +91,7 @@
 <li><a href="https://wikipet.by/zdorove-i-pitanie-sobaki/psihologiya/">Психология</a></li>
     <li><a href="https://wikipet.by/zdorove-i-pitanie-sobaki/dressirovka-i-vospitanie/">Дрессировка и воспитание</a></li>
 </ul>
-{custom category="42,99" limit="6" from="0" idexclude="56" template="main/index-collag-positiv"}
+<div class="full-coll">{custom category="42,99" limit="6" from="0" idexclude="56" template="main/index-collag-positiv"}</div>
 </div>
 
 <div class="clear"></div>

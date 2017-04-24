@@ -7,7 +7,7 @@
 <div class="hr" id="login_pane">
 <div class="poisk-menu"><a href="#" onmouseover="otkr()" style="color: #616161;">Поиск</a></div>
 <div class="ob-menu"><a href="#">Объявления</a></div>
-<div class="blog-menu"><a href="#">Блог</a></div>
+<div class="blog-menu"><a href="https://wikipet.by/blog/">Блог</a></div>
   <div class="afisha-menu"><a href="#">Афиша</a></div>
     <div class="login">{login}</div>
 </div>
@@ -24,7 +24,7 @@
 					  </div>
 					  
   <div class="hrl" id="text2">
-     <div class="blog-div"><a href="#">Блог</a></div>
+     <div class="blog-div"><a href="https://wikipet.by/blog/">Блог</a></div>
      <div class="afisha-div"><a href="#">Афиша</a></div>
         <div class="login2">{login}</div>
   </div>
@@ -42,7 +42,7 @@
 <li id="menu-all2"><a href="#">Все разделы</a></li>
 <li><a href="http://wikipet.by/enciklopediya/">гид по видам/породам</a></li>
 <li><a href="#">зооКаталоги</a></li>
-<li><a href="#">Жизнь с питомцем</a></li>
+<li><a href="https://wikipet.by/zdorove-i-pitanie-sobaki/">Жизнь с питомцем</a></li>
 <li><a href="#">Говорят специалисты</a></li>
 <li><a href="http://wikipet.by/positive/">Позитив</a></li>
 </ul>	

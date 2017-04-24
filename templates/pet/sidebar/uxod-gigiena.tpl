@@ -26,24 +26,27 @@
 </li>
     
     
-    <li class="button"><a href="#"><span >Питание</span></a></li>
+     <li class="button"><a href="#"><span>Питание</span></a></li>
     <li class="dropdown2" id="dropdown">
   <ul class="v-menu">
-      <li><a href="#"><span>пункт 1</span></a></li>
-      <li><a href="#"><span>пункт 2</span></a></li>
-      <li><a href="#"><span>пункт 3</span></a></li>
-      <li><a href="#"><span>пункт 4</span></a></li>
-      <li><a href="#"><span>пункт 5</span></a></li>
+      <li><a href="https://wikipet.by/zdorove-i-pitanie-sobaki/pitanie-sobaki/726-pravila-kormleniya.html"><span>Правила кормления</span></a></li>
+      <li><a href="https://wikipet.by/zdorove-i-pitanie-sobaki/pitanie-sobaki/746-promyshlennye-korma-i-lakomstva.html"><span>Промышленные корма и лакомства</span></a></li>
+      <li><a href="https://wikipet.by/zdorove-i-pitanie-sobaki/pitanie-sobaki/727-vitaminy-i-bady-dlya-sobak.html"><span>Витамины и БАДы</span></a></li>
+      <li><a href="https://wikipet.by/zdorove-i-pitanie-sobaki/pitanie-sobaki/728-naturalnoe-pitanie.html"><span>Натуральное питание</span></a></li>
+      <li><a href="https://wikipet.by/zdorove-i-pitanie-sobaki/pitanie-sobaki/730-ozhirenie-u-sobak.html"><span>Ожирение у собак</span></a></li>
+           <li><a href="https://wikipet.by/zdorove-i-pitanie-sobaki/pitanie-sobaki/732-pischevye-otravleniya.html"><span>Пищевые отравления</span></a></li>
+         <li><a href="https://wikipet.by/zdorove-i-pitanie-sobaki/pitanie-sobaki/733-recepty-i-lakomstva.html"><span>Рецепты блюд и лакомств</span></a></li>
   </ul>
 </li>
     <li class="button"><a href="#"><span class="show">Уход и Гигиена</span></a></li>
     <li class="dropdown2" id="dropdown-show">
   <ul class="v-menu">
-      <li><a href="#"><span>пункт 1</span></a></li>
-      <li><a href="#"><span>пункт 2</span></a></li>
-      <li><a href="#"><span>пункт 3</span></a></li>
-      <li><a href="#"><span>пункт 4</span></a></li>
-      <li><a href="#"><span>пункт 5</span></a></li>
+      <li><a href="https://wikipet.by/zdorove-i-pitanie-sobaki/uhod-i-gigiena/708-uhod-za-glazami-sobaki.html"><span>Уход за глазами</span></a></li>
+      <li><a href="https://wikipet.by/zdorove-i-pitanie-sobaki/uhod-i-gigiena/729-uhod-za-desnami-i-zubami-sobak.html"><span>Уход за деснами и зубами собаки</span></a></li>
+      <li><a href="https://wikipet.by/zdorove-i-pitanie-sobaki/uhod-i-gigiena/731-uhod-za-lapami-i-kogtyami-sobaki.html"><span>Уход за лапами и когтями</span></a></li>
+      <li><a href="https://wikipet.by/zdorove-i-pitanie-sobaki/uhod-i-gigiena/734-uhod-za-ushami-sobaki.html"><span>Уход за ушами собаки</span></a></li>
+      <li><a href="https://wikipet.by/zdorove-i-pitanie-sobaki/uhod-i-gigiena/736-sanobrabotka-pomescheniy.html"><span>Санобработка помещений</span></a></li>
+            <li><a href="https://wikipet.by/zdorove-i-pitanie-sobaki/uhod-i-gigiena/765-uhod-za-sherstyu.html"><span>Уход за шерстью</span></a></li>
   </ul>
 </li>
     <li class="button" ><a href="#"><span class="show-otkl">Дрессировка и Воспитание</span></a></li>
@@ -65,25 +68,28 @@
            <li class="button"><a href="#"><span>Зож</span></a></li>
         <li class="dropdown2" id="dropdown">
   <ul class="v-menu">
-      <li><a href="#"><span>пункт 1</span></a></li>
-      <li><a href="#"><span>пункт 2</span></a></li>
-      <li><a href="#"><span>пункт 3</span></a></li>
-      <li><a href="#"><span>пункт 4</span></a></li>
-      <li><a href="#"><span>пункт 5</span></a></li>
+      <li><a href="https://wikipet.by/zdorove-i-pitanie-sobaki/zozh/740-vybor-amunicii-dlya-sobaki.html"><span>Амуниция для собаки</span></a></li>
+      <li><a href="https://wikipet.by/zdorove-i-pitanie-sobaki/zozh/771-reabilitaciya-sobaki-posle-bolezni.html"><span>Реабилитация после болезни</span></a></li>
+      <li><a href="https://wikipet.by/zdorove-i-pitanie-sobaki/zozh/767-fizicheskaya-nagruzka-i-rezhim-dnya-sobaki.html"><span>Физическая нагрузка и режим дня</span></a></li>
+      <li><a href="https://wikipet.by/zdorove-i-pitanie-sobaki/zozh/768-fitnes-i-sport-dlya-sobak.html"><span>Фитнес и спорт для собак</span></a></li>
+      <li><a href="https://wikipet.by/zdorove-i-pitanie-sobaki/zozh/769-organizaciya-prostranstva.html"><span>Организация пространства</span></a></li>
+      <li><a href="https://wikipet.by/zdorove-i-pitanie-sobaki/zozh/770-trenazhery-dlya-sobak.html"><span>Тренажеры для собак</span></a></li>
+
   </ul>
 </li>
     <li class="button"><a href="#"><span>Психология</span></a></li>
     <li class="dropdown2" id="dropdown">
   <ul class="v-menu">
-      <li><a href="#"><span>пункт 1</span></a></li>
-      <li><a href="#"><span>пункт 2</span></a></li>
-      <li><a href="#"><span>пункт 3</span></a></li>
-      <li><a href="#"><span>пункт 4</span></a></li>
-      <li><a href="#"><span>пункт 5</span></a></li>
+      <li><a href="https://wikipet.by/zdorove-i-pitanie-sobaki/psihologiya/706-chrezmernyy-lay-metody-korrekcii.html"><span>Проблемное поведение</span></a></li>
+      <li><a href="https://wikipet.by/zdorove-i-pitanie-sobaki/psihologiya/735-agressiya-u-sobak.html"><span>Агрессия</span></a></li>
+      <li><a href="https://wikipet.by/zdorove-i-pitanie-sobaki/psihologiya/737-sobaka-i-rebenok.html"><span>Собака и ребенок</span></a></li>
+      <li><a href="https://wikipet.by/zdorove-i-pitanie-sobaki/psihologiya/738-sobaka-nevrotik.html"><span>Собака-Невротик</span></a></li>
+      <li><a href="https://wikipet.by/zdorove-i-pitanie-sobaki/psihologiya/739-sobaka-i-drugie-pitomcy.html"><span>Собака и другие питомцы</span></a></li>
   </ul>
 </li>
-    <!--<li class="button"><a href="#"><span>Товары и Услуги</span></a></li>
-    <li class="dropdown2" id="dropdown">
+<li><a href="https://wikipet.by/zdorove-i-pitanie-sobaki/vash-stareyuschiy-pitomec/"><span style="border-left:none;background: none;">Ваш стареющий питомец</span></a></li>
+                 <li><a href="https://wikipet.by/zdorove-i-pitanie-sobaki/uchastie-v-vystavkah/"><span style="border-left:none;background: none;">Участие в выставках</span></a></li>
+   <!-- <li class="dropdown2" id="dropdown">
   <ul class="v-menu">
       <li><a href="#"><span>пункт 1</span></a></li>
       <li><a href="#"><span>пункт 2</span></a></li>

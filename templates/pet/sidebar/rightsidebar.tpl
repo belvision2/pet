@@ -1,5 +1,5 @@
 [not-static=positiv,eto-vse-oni,katalog,index,obyavleniya-spisok]
-[not-category=11,20-25,29,37-39,40-44,46,13-18,49,27,52,54-56,60-71,99]
+[not-category=11,20-25,29,37-39,40-44,46,13-18,49,27,52,54-56,60-71,99,111,93-98,115,39,40,41,91,107,109,108]
 
 
 <!--===========================
@@ -90,14 +90,14 @@
 </select>
 </form>
       
-      <div class="shop-menu-subtitle">ВЫБЕРИТЕ ПОРОДУ</div>
+      <div class="shop-menu-subtitle">ВЫБЕРИТЕ ПОРОДУ2</div>
 		 <ul>
 <a href="http://wikipet.by/xfsearch/Минск"><li><input type="checkbox" name="a" value="#">Такса</li></a>
 <a href="http://wikipet.by/xfsearch/Гомель"><li><input type="checkbox" name="a" value="#">Лабродор</li></a>
-             <a href="http://wikipet.by/xfsearch/Минск"><li><input type="checkbox" name="a" value="#">Овчарка</li></a>
+<a href="http://wikipet.by/xfsearch/Минск"><li><input type="checkbox" name="a" value="#">Овчарка</li></a>
 <a href="http://wikipet.by/xfsearch/Гомель"><li><input type="checkbox" name="a" value="#">Доберман</li></a>
 		 </ul>
-     
+     {catmenu id="60-67" template="custom"}
 <form action="">     
 <select class="shop-select" size="1"onchange="document.location=this.options[this.selectedIndex].value">
   <option value="#" selected>Все породы</option>
@@ -153,7 +153,7 @@
 	
 <ul class="innerpage_menu">
 
-      {custom category="22"  limit="14" template="menu" sort="asc" from="1"}
+      {custom category="22" limit="100" template="menu" sort="asc" from="1"}
 </ul>
    
    </div>
@@ -171,7 +171,7 @@
 <ul class="innerpage_menu">	
 
 
-      {custom category="60"  limit="14" template="menu" sort="asc" from="1"}
+      {custom category="60" limit="100"  template="menu" sort="asc" from="1"}
 </ul>
    
    </div>
@@ -188,7 +188,7 @@
 	
 <ul class="innerpage_menu">	
 
-  {custom category="61"  limit="14" template="menu" sort="asc" from="1"}
+  {custom category="61" limit="100"  template="menu" sort="asc" from="1"}
 
 </ul>
    
@@ -206,7 +206,7 @@
 	
 <ul class="innerpage_menu">	
  
-      {custom category="62"  limit="14" template="menu" sort="asc" from="1"}
+      {custom category="62"  limit="100" template="menu" sort="asc" from="1"}
 </ul>
    
    </div>
@@ -223,7 +223,7 @@
 	
 <ul class="innerpage_menu">	
  
-      {custom category="63"  limit="14" template="menu" sort="asc" from="1"}
+      {custom category="63" limit="100"  template="menu" sort="asc" from="1"}
 </ul>
    
    </div>
@@ -240,7 +240,7 @@
 	
 <ul class="innerpage_menu">	
  
-      {custom category="64"  limit="14" template="menu" sort="asc" from="1"}
+      {custom category="64"  limit="100" template="menu" sort="asc" from="1"}
 </ul>
    
    </div>
@@ -256,7 +256,7 @@
 	<div class="liniya"></div>
 	
 <ul class="innerpage_menu">	
-      {custom category="65"  limit="14" template="menu" sort="asc" from="1"}
+      {custom category="65"  limit="100" template="menu" sort="asc" from="1"}
 </ul>
    </div>
 </aside>
@@ -271,7 +271,7 @@
 	<div class="liniya"></div>
 	
 <ul class="innerpage_menu">	
-      {custom category="66"  limit="14" template="menu" sort="asc" from="1"}
+      {custom category="66" limit="100"  template="menu" sort="asc" from="1"}
 </ul>
    </div>
 </aside>
@@ -286,7 +286,7 @@
 	<div class="liniya"></div>
 	
 <ul class="innerpage_menu">	
-      {custom category="67"  limit="14" template="menu" sort="asc" from="1"}
+      {custom category="67" limit="100"  template="menu" sort="asc" from="1"}
 </ul>
    </div>
 </aside>
@@ -301,7 +301,7 @@
 	<div class="liniya"></div>
 	
 <ul class="innerpage_menu">	
-      {custom category="68"  limit="14" template="menu" sort="asc" from="1"}
+      {custom category="68" limit="100"  template="menu" sort="asc" from="1"}
 </ul>
    </div>
 </aside>
@@ -316,7 +316,7 @@
 	<div class="liniya"></div>
 	
 <ul class="innerpage_menu">	
-      {custom category="69"  limit="14" template="menu" sort="asc" from="1"}
+      {custom category="69" limit="100"  template="menu" sort="asc" from="1"}
 </ul>
    </div>
 </aside>
@@ -331,7 +331,7 @@
 	<div class="liniya"></div>
 	
 <ul class="innerpage_menu">	
-      {custom category="70"  limit="14" template="menu" sort="asc" from="1"}
+      {custom category="70"  limit="100" template="menu" sort="asc" from="1"}
 </ul>
    </div>
 </aside>
@@ -346,7 +346,112 @@
 	<div class="liniya"></div>
 	
 <ul class="innerpage_menu">	
-      {custom category="71"  limit="14" template="menu" sort="asc" from="1"}
+      {custom category="71" limit="100" template="menu" sort="asc" from="1"}
+</ul>
+   </div>
+</aside>
+[/category]
+[category=93]
+<aside>
+    <a href="http://vegans.by/"> <div style="height: 429px;"><img src="{theme}/img/banner-iphone.png" alt="" /></div></a>
+<div class="full_menu_box">
+    <div class="innerpage_menu_header">
+     <span>Меню</span>
+    </div>
+	<div class="liniya"></div>
+	
+<ul class="innerpage_menu">	
+      {custom category="93" limit="100" template="menu" sort="asc" from="1"}
+</ul>
+   </div>
+</aside>
+[/category]
+[category=94]
+<aside>
+    <a href="http://vegans.by/"> <div style="height: 429px;"><img src="{theme}/img/banner-iphone.png" alt="" /></div></a>
+<div class="full_menu_box">
+    <div class="innerpage_menu_header">
+     <span>Меню</span>
+    </div>
+	<div class="liniya"></div>
+	
+<ul class="innerpage_menu">	
+      {custom category="94" limit="100" template="menu" sort="asc" from="1"}
+</ul>
+   </div>
+</aside>
+[/category]
+[category=95]
+<aside>
+    <a href="http://vegans.by/"> <div style="height: 429px;"><img src="{theme}/img/banner-iphone.png" alt="" /></div></a>
+<div class="full_menu_box">
+    <div class="innerpage_menu_header">
+     <span>Меню</span>
+    </div>
+	<div class="liniya"></div>
+	
+<ul class="innerpage_menu">	
+      {custom category="95" limit="100" template="menu" sort="asc" from="1"}
+</ul>
+   </div>
+</aside>
+[/category]
+[category=96]
+<aside>
+    <a href="http://vegans.by/"> <div style="height: 429px;"><img src="{theme}/img/banner-iphone.png" alt="" /></div></a>
+<div class="full_menu_box">
+    <div class="innerpage_menu_header">
+     <span>Меню</span>
+    </div>
+	<div class="liniya"></div>
+	
+<ul class="innerpage_menu">	
+      {custom category="96" limit="100" template="menu" sort="asc" from="1"}
+</ul>
+   </div>
+</aside>
+[/category]
+[category=97]
+<aside>
+    <a href="http://vegans.by/"> <div style="height: 429px;"><img src="{theme}/img/banner-iphone.png" alt="" /></div></a>
+<div class="full_menu_box">
+    <div class="innerpage_menu_header">
+     <span>Меню</span>
+    </div>
+	<div class="liniya"></div>
+	
+<ul class="innerpage_menu">	
+      {custom category="97" limit="100" template="menu" sort="asc" from="1"}
+</ul>
+   </div>
+</aside>
+[/category]
+[category=98]
+<aside>
+    <a href="http://vegans.by/"> <div style="height: 429px;"><img src="{theme}/img/banner-iphone.png" alt="" /></div></a>
+<div class="full_menu_box">
+    <div class="innerpage_menu_header">
+     <span>Меню</span>
+    </div>
+	<div class="liniya"></div>
+	
+<ul class="innerpage_menu">	
+      {custom category="98" limit="100" template="menu" sort="asc" from="1"}
+</ul>
+   </div>
+</aside>
+[/category]
+[category=115]
+<aside>
+    <a href="http://vegans.by/"> <div style="height: 429px;"><img src="{theme}/img/banner-iphone.png" alt="" /></div></a>
+<div class="full_menu_box">
+    <div class="innerpage_menu_header">
+     <span>Меню</span>
+    </div>
+	<div class="liniya"></div>
+	
+<ul class="innerpage_menu">	
+      {custom category="115" limit="100" template="menu" sort="asc" from="1"}
 </ul>
    </div>
 </aside>
@@ -395,7 +500,7 @@
 	  </div>  -->
   
 <!--[banner_right-sidebar-2]{banner_right-sidebar-2}[/banner_right-sidebar-2]-->
- <a href="#"><div class="pravo"><div class="pravo-1"></div><div class="pravo-2">ПРАВОВЫЕ ВОПРОСЫ<br />
+ <a href="https://wikipet.by/pravovye-voprosy/"><div class="pravo"><div class="pravo-1"></div><div class="pravo-2">ПРАВОВЫЕ ВОПРОСЫ<br />
 содержания <br />
 ЖИВОТНЫХ</div></div></a>
 <!--<div class="vertical_menu12">
@@ -427,34 +532,7 @@
     <a href="http://karaliki.by"><div style="height:429px;"><img src="/templates/pet/img/banner-karaliki.png" alt=""></div></a>
 </aside>
 [/static]
-[category=41]
-<aside>
 
-<div id="fullstory-hndmd-aside-menu" >
-    <div id="fullstory-hndmd-aside-menu-header">
-     <span>hand-made</span>
-    </div>
-	<div class="liniya"></div>
-	
-<ul>
-<li><a href="#">СКРАП</a></li>
-<li><a href="#">ДЕКУПАЖ</a></li>
-<li><a href="#">ПЛАСТИКА</a></li>
-<li><a href="#">ВАЛЯНИЕ ШЕРСТИ</a></li>
-<li><a href="#">ТЕКСТИЛЬНАЯ ИГРУШКА</a></li>
-<li><a href="#">ВЫШИВКА</a></li>
-<li><a href="#">БИСЕР</a></li>
-<li><a href="#">РОСПИСЬ</a></li>
-
-</ul>
-</div>
- {custom category="40" limit="1" template="right-banner-hand-made-fullstory"}
-
-<div class="innerpage_add_block_2">Реклама</div>
-<div class="innerpage_add_block_3">Реклама</div>
-     
-</aside>
-[/category]
 
 [category=46,11,13,14,15,16,17,18,52,55]
 
@@ -479,6 +557,7 @@
             <li><a href="http://wikipet.by/positive/zanimatelnaya-psihologiya/">ЗАНИМАТЕЛЬНАЯ ПСИХОЛОГИЯ</a></li>
              <li><a href="http://wikipet.by/positive/personi/">ПЕРСОНЫ</a></li>
              <li><a href="http://wikipet.by/positive/pryamoy-reportaj/">ПРЯМОЙ РЕПОРТАЖ</a></li>
+              <li><a href="https://wikipet.by/positive/tema-dnya/">ТЕМА ДНЯ</a></li>
 	<!--{catmenu id="11,13-19"}-->
 		 </ul>
      </div>
@@ -489,9 +568,9 @@
 
 
 
-[category=39]
+[category=39,40,41,91]
 <aside>
-<div class="hndmd-aside-gallery">
+<!--<div class="hndmd-aside-gallery">
       <div class="hndmd-aside-gallery-header">
 	  <span>
        галерея питомцев
@@ -503,20 +582,31 @@
 	  <li></li>
 	  <li></li>
 	</ul>
-	  </div>
+	  </div>-->
 	  
 	  <div class="vertical_menu10">
     <div class="hndmd-aside-menu-header">
 	
 
-     <span>это все они</span>
+     <span>Творчество</span>
     </div>
 	<div class="liniya"></div>
 	
 	 <ul>
-	{catmenu id="11,13-19"}
+	{catmenu id="91,41,40"}
 		 </ul>
 </div>  
+      <div class="vertical_menu11" >
+      <div class="vertical_menu11_header">
+	  <span>
+       Wikipet-журнал
+	   </span>
+      </div>
+        <div class="liniya"></div>
+	<a href="https://wikipet.by/wikipet-zhurnal/"><img src="http://wikipet.by/templates/pet/img/banner-zabavnie-video.jpg"></a>
+  
+	
+	  </div>
 </aside>
 [/category]
 
@@ -532,16 +622,18 @@
 	 
 
 		 <ul>
-        <li><a href="#">Налогооблажение</a></li>
-             <li><a href="#">Правила содержания</a></li>
-             <li><a href="#">Документы на животных</a></li>
-             <li><a href="#">Вывоз за границу и транспортировка</a></li>
-             <li><a href="#">Чипирование</a></li>
+        <li><a href="#">Налогообложение</a></li>
+             <li><a href="https://wikipet.by/pravovye-voprosy/612-pravila-soderzhaniya-zhivotnyh.html">Правила содержания</a></li>
+       
+             <li><a href="https://wikipet.by/pravovye-voprosy/406-vyvoz-za-granicu-i-transportirovka.html">Вывоз за границу</a></li>
+                <li><a href="https://wikipet.by/pravovye-voprosy/676-pravila-transportirovki-zhivotnyh.html">транспортировка</a></li>
+             <li><a href="https://wikipet.by/pravovye-voprosy/675-chipirovanie-pitomcev.html">Чипирование</a></li>
              <li><a href="#">Вакцинация</a></li>
-             
-            <li><a href="#">Страхование</a></li>
-             <li><a href="#">Чрезвычайные ситуации</a></li>
-             <li><a href="#">Законы и  нормативно-правовые акты РБ</a></li>
+               <li><a href="https://wikipet.by/pravovye-voprosy/613-o-beznadzornyh-zhivotnyh.html">О БЕЗНАДЗОРНЫХ ЖИВОТНЫХ</a></li>
+            <li><a href="https://wikipet.by/pravovye-voprosy/610-strahovanie-domashnih-zhivotnyh.html">Страхование</a></li>
+        <li><a href="https://wikipet.by/pravovye-voprosy/611-shtrafy.html">Штрафы</a></li>
+             <li><a href="https://wikipet.by/pravovye-voprosy/609-zakony-i-normativno-pravovye-akty-rb.html">Законы и  нормативно-правовые акты РБ</a></li>
+                 
 	<!--{catmenu id="11,13-19"}-->
 		 </ul>
      </div>
@@ -661,7 +753,7 @@
 	   </span>
       </div>
         <div class="liniya"></div>
-	<a href="http://wikipet.by/positive/geroi/"><img src="http://wikipet.by/templates/pet/img/banner-zabavnie-video.jpg"></a>
+	<a href="https://wikipet.by/wikipet-zhurnal/"><img src="http://wikipet.by/templates/pet/img/banner-zabavnie-video.jpg"></a>
   
 	
 	  </div>
@@ -679,24 +771,3 @@
   
 </aside>
 [/category] 
-[not-category=41]
-[category=40]
-<aside>
-     <div class="vertical_menu10">
-    <div id="master-cl-aside-menu-header">
-		 <span>мастер-классы</span>
-    </div>
-	<div class="liniya"></div>
-	
-<ul>
-    {custom category="40" limit="7" template="masterclassi"}
-
-
-</ul>
-</div>  
-
-
-<div class="innerpage_add_block_2">Реклама</div>
-<div class="innerpage_add_block_3">Реклама</div>
-</aside>
-[/category] [/not-category]

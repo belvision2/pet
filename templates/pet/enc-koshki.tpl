@@ -300,7 +300,7 @@ DLE
 
 <div class="enc-sliderfooter">
  <div class="zagolovok-naidite">
-       <p class="enc-text-naidite">ВАШЕМУ ПИТОМЦУ</p>
+       <p class="enc-text-naidite">ВАМ И ВАШЕМУ ПИТОМЦУ</p>
        <p class="text-uznaite">Популярные товары</p>
       </div>
 

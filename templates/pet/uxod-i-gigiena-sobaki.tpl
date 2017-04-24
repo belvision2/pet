@@ -1,6 +1,5 @@
 <style>.navigation, .hide-cotegory {display: none;}
-
-    .sp-horizontal .sp-next-arrow {
+.sp-horizontal .sp-next-arrow {
     right: 63px;
     top: -2px;
 }
@@ -48,16 +47,16 @@
 
 <div class="clear"></div>
 <div class="content-dress">
-  {custom category="99" order="reads" limit="3" from="0"  template="main/index-collag-art"}
-    {custom category="99" order="reads" limit="3" from="3"  template="main/index-collag-art"}
-    {custom category="99" order="reads" limit="3" from="6"  template="main/index-collag-art"}
+  {custom category="109" order="reads" limit="3" from="0"  template="main/index-collag-art"}
+    {custom category="109" order="reads" limit="3" from="3"  template="main/index-collag-art"}
+    {custom category="109" order="reads" limit="3" from="6"  template="main/index-collag-art"}
 
    
 </div>
-	{custom category="20,42,108,107,109,111,114" limit="6" from="0" idexclude="56" template="main/index-collag-positiv"}
-
- <div class="clear"></div>  
- <div class="zagolovok-naidite" >
+	{custom category="20,42,99,107,108,111,114" limit="6" from="0" idexclude="56" template="main/index-collag-positiv"}
+    
+	 <div class="clear"></div>  
+ <div class="zagolovok-naidite">
        <p class="enc-text-naidite">ВАШЕМУ ПИТОМЦУ</p>
        <p class="text-uznaite">Популярные товары</p>
       </div>
@@ -119,8 +118,5 @@
 </div>
     
        <div class="clear"></div>  
-	
-	
-
 
   

@@ -26,8 +26,8 @@
 </li>
     
     
-    <li class="button"><a href="#"><span class="show">Питание</span></a></li>
-    <li class="dropdown2" id="dropdown-show">
+   <li class="button"><a href="#"><span>Питание</span></a></li>
+    <li class="dropdown2" id="dropdown">
   <ul class="v-menu">
       <li><a href="https://wikipet.by/zdorove-i-pitanie-sobaki/pitanie-sobaki/726-pravila-kormleniya.html"><span>Правила кормления</span></a></li>
       <li><a href="https://wikipet.by/zdorove-i-pitanie-sobaki/pitanie-sobaki/746-promyshlennye-korma-i-lakomstva.html"><span>Промышленные корма и лакомства</span></a></li>
@@ -38,7 +38,7 @@
          <li><a href="https://wikipet.by/zdorove-i-pitanie-sobaki/pitanie-sobaki/733-recepty-i-lakomstva.html"><span>Рецепты блюд и лакомств</span></a></li>
   </ul>
 </li>
-    <li class="button"><a href="#"><span>Уход и Гигиена</span></a></li>
+    <li class="button"><a href="#"><span >Уход и Гигиена</span></a></li>
     <li class="dropdown2" id="dropdown">
   <ul class="v-menu">
       <li><a href="https://wikipet.by/zdorove-i-pitanie-sobaki/uhod-i-gigiena/708-uhod-za-glazami-sobaki.html"><span>Уход за глазами</span></a></li>
@@ -46,11 +46,11 @@
       <li><a href="https://wikipet.by/zdorove-i-pitanie-sobaki/uhod-i-gigiena/731-uhod-za-lapami-i-kogtyami-sobaki.html"><span>Уход за лапами и когтями</span></a></li>
       <li><a href="https://wikipet.by/zdorove-i-pitanie-sobaki/uhod-i-gigiena/734-uhod-za-ushami-sobaki.html"><span>Уход за ушами собаки</span></a></li>
       <li><a href="https://wikipet.by/zdorove-i-pitanie-sobaki/uhod-i-gigiena/736-sanobrabotka-pomescheniy.html"><span>Санобработка помещений</span></a></li>
-         <li><a href="https://wikipet.by/zdorove-i-pitanie-sobaki/uhod-i-gigiena/765-uhod-za-sherstyu.html"><span>Уход за шерстью</span></a></li>
+            <li><a href="https://wikipet.by/zdorove-i-pitanie-sobaki/uhod-i-gigiena/765-uhod-za-sherstyu.html"><span>Уход за шерстью</span></a></li>
   </ul>
 </li>
-    <li class="button" ><a href="#"><span class="show-otkl">Дрессировка и Воспитание</span></a></li>
-<li class="dropdown2" id="dropdown">
+    <li class="button" ><a href="#"><span class="show">Дрессировка и Воспитание</span></a></li>
+<li class="dropdown2" id="dropdown-show">
   <ul class="v-menu">
       <li><a href="https://wikipet.by/zdorove-i-pitanie-sobaki/dressirovka-i-vospitanie/345-vospitatelnaya-dressirovka.html"><span>Воспитательная<br /> дрессировка</span></a></li>
       <li><a href="https://wikipet.by/zdorove-i-pitanie-sobaki/dressirovka-i-vospitanie/617-sportivnaya-dressirovka.html"><span>Спортивная<br /> дрессировка</span></a></li>
@@ -63,9 +63,11 @@
 </li>
 
 
+
 </ul>
     <ul class="innerpage_menu-dress border">
-      <li class="button"><a href="#"><span>Зож</span></a></li>
+     <ul class="innerpage_menu-dress border">
+           <li class="button"><a href="#"><span >Зож</span></a></li>
         <li class="dropdown2" id="dropdown">
   <ul class="v-menu">
       <li><a href="https://wikipet.by/zdorove-i-pitanie-sobaki/zozh/740-vybor-amunicii-dlya-sobaki.html"><span>Амуниция для собаки</span></a></li>
@@ -86,9 +88,10 @@
       <li><a href="https://wikipet.by/zdorove-i-pitanie-sobaki/psihologiya/738-sobaka-nevrotik.html"><span>Собака-Невротик</span></a></li>
       <li><a href="https://wikipet.by/zdorove-i-pitanie-sobaki/psihologiya/739-sobaka-i-drugie-pitomcy.html"><span>Собака и другие питомцы</span></a></li>
   </ul>
-</li>
+</li>       
 <li><a href="https://wikipet.by/zdorove-i-pitanie-sobaki/vash-stareyuschiy-pitomec/"><span style="border-left:none;background: none;">Ваш стареющий питомец</span></a></li>
-                 <li><a href="https://wikipet.by/zdorove-i-pitanie-sobaki/uchastie-v-vystavkah/"><span style="border-left:none;background: none;">Участие в выставках</span></a></li>
+         
+         
    <!-- <li class="dropdown2" id="dropdown">
   <ul class="v-menu">
       <li><a href="#"><span>пункт 1</span></a></li>
@@ -101,6 +104,7 @@
     </ul>
     <div class="clear"></div>
     <div class="esli hide-fullstory"><a href="https://wikipet.by/zdorove-i-pitanie-sobaki/esli-vy-reshili-zavesti-sobaku/"><span>если вы решили<br />завести собаку</span></a></div>
+               <li><a href="https://wikipet.by/zdorove-i-pitanie-sobaki/uchastie-v-vystavkah/"><span style="border-left:none;background: none;">Участие в выставках</span></a></li>
 
    </div>
     

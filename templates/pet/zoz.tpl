@@ -11,7 +11,10 @@
     .sp-horizontal .sp-previous-arrow {
     left: 11px;
 }
+    
     .zagolovok-naidite {
+    height: 77px;
+    width: 400px;
     margin-bottom: 40px;
 }
 </style>
@@ -22,7 +25,7 @@
           
             <div class="sp-slide 1">
  <div id="sob" class="visible"><a href="#">Собаки</a></div>
- <div id="cat"><a href="#">Кошки</a></div>
+ <div id="cat"><a href="#">Коты</a></div>
  <div id="ptic"><a href="#">Птицы</a></div>
  <div id="aqua"><a href="#">Аквариумные</a></div>
  <div id="terrar"><a href="#">Террариумные</a></div>
@@ -48,19 +51,21 @@
 
 <div class="clear"></div>
 <div class="content-dress">
-  {custom category="99" order="reads" limit="3" from="0"  template="main/index-collag-art"}
-    {custom category="99" order="reads" limit="3" from="3"  template="main/index-collag-art"}
-    {custom category="99" order="reads" limit="3" from="6"  template="main/index-collag-art"}
+  {custom category="108" order="reads" limit="3" from="0"  template="main/index-collag-art"}
+    {custom category="108" order="reads" limit="3" from="3"  template="main/index-collag-art"}
+    {custom category="108" order="reads" limit="3" from="6"  template="main/index-collag-art"}
 
    
 </div>
-	{custom category="20,42,108,107,109,111,114" limit="6" from="0" idexclude="56" template="main/index-collag-positiv"}
+	
+	{custom category="20,42,99,107,109,111,114" limit="6" from="0" idexclude="56" template="main/index-collag-positiv"}
 
  <div class="clear"></div>  
- <div class="zagolovok-naidite" >
+ <div class="zagolovok-naidite">
        <p class="enc-text-naidite">ВАШЕМУ ПИТОМЦУ</p>
        <p class="text-uznaite">Популярные товары</p>
       </div>
+ <div class="clear"></div> 
         <div class="index_small_slider">
 	<div id="index_small_slider" class="slider-pro">
 		<div class="sp-slides">
@@ -120,7 +125,8 @@
     
        <div class="clear"></div>  
 	
-	
 
+
+  
 
   

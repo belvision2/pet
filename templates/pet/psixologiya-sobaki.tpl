@@ -1,6 +1,3 @@
-
-
-
 <style>.navigation, .hide-cotegory {display: none;}</style>
  <div class="zizn_menu_slider">
 	<div id="zizn-menu" class="slider-pro">
@@ -34,20 +31,15 @@
 
 
 <div class="clear"></div>
-<div class="empty">
-    {custom category="20,42,99,107,108,109,111,114"  limit="1" from="0" template="main/index-collag1"}
+<div class="content-dress">
+  {custom category="20" order="reads" limit="3" from="0"  template="main/index-collag-art"}
+    {custom category="20" order="reads" limit="3" from="2"  template="main/index-collag-art"}
+    {custom category="20" order="reads" limit="3" from="6"  template="main/index-collag-art"}
 
-<div class="col-2">
-	{custom category="20,42,99,107,108,109,111,114"  limit="1" from="1" template="main/index-collag2"}
-{custom category="20,42,99,107,108,109,111,114" limit="1" from="2" idexclude="56" template="main/index-collag2"}
+   
 </div>
-<div class="col-3">
-{custom category="20,42,99,107,108,109,111,114" limit="1" from="3" idexclude="56" template="main/index-collag3"}
-{custom category="20,42,99,107,108,109,111,114" limit="1" from="4" idexclude="56" template="main/index-collag3"}
-{custom category="20,42,99,107,108,109,111,114" limit="1" from="5" idexclude="56" template="main/index-collag4"}
-</div></div>
-
-	{custom category="20,42,99,107,108,109,111,114" limit="6" from="5" idexclude="56" template="main/index-collag-positiv"}
+	{custom category="108,42,99,107,109,111,114" limit="6" from="0" idexclude="56" template="main/index-collag-positiv"}
+	
 
 
-			
+  

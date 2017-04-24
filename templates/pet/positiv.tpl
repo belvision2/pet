@@ -18,7 +18,7 @@
 }
                    .navigation{display:none;}
                </style>
-		
+
       <!--====================
 kreativ-foto
 ======================-->
@@ -29,8 +29,6 @@ kreativ-foto
 <div class="grid_row_1">
 		 <a href="http://wikipet.by/kreativ-foto/46-kreativnye-foto-1.html"><div class="grid_img_1" style="background: url([xfvalue_image_url_img-positiv1]) no-repeat; background-position:center; background-size:cover;">
          </div></a>
-
-
 
  <a href="http://wikipet.by/kreativ-foto/50-kreativnoe-foto-5.html"><div class="grid_img_2" style="background: url([xfvalue_image_url_img-positiv2]) no-repeat; background-position:center; background-size:cover;">
          </div></a>
@@ -71,5 +69,11 @@ kreativ-foto end
 КОНЕЦ БЛОКОВ С КАРТИНКАМИ
 =======================-->
 
-
+		    <div class="grid10">
+       <h1 class="grid10_header">забавные видео</h1>
+      
+      {custom category="23"  from="0" limit="4" template="zabavnie-video1" order="reads" sort="desc"}
+   </div>
+               	<div class="clear"></div>
+<div class="posmotret-vse"><a href="http://wikipet.by/zabavnie-video/"><div class="posmotret">Посмотреть все</div></a></div>
 </div>

@@ -142,22 +142,11 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-h4{
-    
- color: rgb(0,0,0);
-    font-size: 21px;
-    font-weight: 600;
-    margin: 10px 5px;
-
-}
 body {
 	line-height: 1;
 }
 ol, ul {
 	list-style: none;
-}
-b{
-        font-weight: 600;
 }
 blockquote, q {
 	quotes: none;
@@ -1143,7 +1132,6 @@ ul.hr3 li+li+li+li+li+li {
  .zagolovok-naidite {
     height: 77px;
     width: 400px;
-         margin-bottom: 20px;
 }
 .text-naidite {
 	color: #9a2c11;
@@ -1252,14 +1240,14 @@ ul.hr3 li+li+li+li+li+li {
     font-family: OpenSans-Light;
     margin: -14px 0 0 80px;
 }
- /*.cat {
+ .cat {
     width: 470px;
     height: 34px;
     color: #3aa2a5;
     font-family: BebasNeueBold;
     font-size: 40px;
     margin-top: 42px;
-}*/
+}
  .catm {
     width: 470px;
     height: 46px;
@@ -6948,19 +6936,6 @@ position:relative;
      width:952px;
 }
 
-/* Тень для ячеек */
-
-#shadow {
-    width: 100%;
-    height: 100px;
-    bottom: 0;
-    position: absolute;
-    background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.7) 100%); 
-    background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0.7) 100%);
-    background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.7) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#000000',GradientType=0 );
-}
-
 /*================
 новая главная
 ================*/
@@ -7016,7 +6991,7 @@ h1.red {
 }
 
 h4.description {
-	color: #8d8d8d;
+	color: #8d8d8d8d;
 	font-size: 18px;
 	font-family: OpenSans;
 	padding-top: 6px;
@@ -7071,19 +7046,12 @@ ul.main-page-block-menu2 {
 	margin-right: 0;
 	margin-left: -7px;
 }
-.full-coll .main-page-box {
-	width: 297px;
-	float: left;
-	margin-right: 20px;
-	margin-bottom: 43px;
-    height: 350px;
-}
+
 .main-page-box {
 	width: 297px;
 	float: left;
 	margin-right: 20px;
 	margin-bottom: 43px;
-        height: 287px;
 }
 .main-page-box-title h2 {
     text-transform: uppercase;
@@ -7092,7 +7060,7 @@ ul.main-page-block-menu2 {
     color: #2d2d2d;
     line-height: 26px;
     letter-spacing: 1px;
-    height: auto;
+    height: 50px;
     overflow: hidden;
 }
 .main-page-box-text {
@@ -7239,9 +7207,6 @@ ul.hr2 {
 	text-transform: uppercase;
 }
 
-/* OPACITY ON HOVER */
-
-/* old
 .col-title{
 	margin-top: 297px;
 	font-size: 36px;
@@ -7258,31 +7223,7 @@ ul.hr2 {
 	overflow: hidden;
 	word-wrap: normal;
 }
-*/
 
-.col-title {
-    font-size: 40px;
-    color: #fff;
-    text-transform: uppercase;
-    font-family: BebasNeueRegular;
-    padding-left: 12px;
-    word-spacing: 0px;
-    letter-spacing: 1px;
-    line-height: 40px;
-    height: 61px;
-    padding-right: 5px;
-    overflow: hidden;
-    word-wrap: normal;
-    height: auto;
-    width: 100%;
-    bottom: 0;
-    max-height: 76px;
-    margin-bottom: 24px;
-    margin-left: 10px;
-}
-
-
-/* old
 .col-title2 {
 	margin-top: 100px;
 	font-size: 24px;
@@ -7297,26 +7238,6 @@ ul.hr2 {
 	padding-right: 5px;
 	overflow: hidden;
 	word-wrap: normal;
-} */
-
-.col-title2 {
-    font-size: 24px;
-    color: #fff;
-    text-transform: uppercase;
-    font-family: BebasNeueRegular;
-    padding-left: 12px;
-    word-spacing: 0px;
-    letter-spacing: 1px;
-    line-height: 28px;
-    height: 61px;
-    padding-right: 5px;
-    overflow: hidden;
-    word-wrap: normal;
-    height: auto;
-    width: 100%;
-    bottom: 0;
-    max-height: 56px;
-    margin-bottom: 10px;
 }
 
 ul.main-page-block-menu1 {
@@ -8087,9 +8008,9 @@ h1.black-header {
     padding: 13px 15px 11px 19px;
     display: block;
 }
-     /*div.main-page-box:nth-child(12),div.main-page-box:nth-child(18),div.main-page-box:nth-child(21){
+     div.main-page-box:nth-child(12),div.main-page-box:nth-child(18),div.main-page-box:nth-child(21){
         margin-right: 0px;
-    }*/
+    }
  
          h1.red-full {
     text-transform: uppercase;
@@ -8392,7 +8313,6 @@ float: left;
 	float: left;
 	margin-right: 17px;
 	margin-bottom: 17px;
-       height: 206px;
 }
 
         .menu-dress2{
@@ -8879,59 +8799,4 @@ background: url(../img/Blog.svg) 19px 10px no-repeat;
     opacity: 0.46;
     font-size: 0.874117em;
     font-family: OpenSans;
-}
-
-
-   .cat{
-        width: 232px;
-        height: 232px;
-        float: left;
-        margin-left: 8px;
-       margin-top: 8px;
-	   position:relative;
-    }
-	
-	
-    .poroda1{background: url({theme}/img/shadow.png) top center no-repeat,
-                         url({theme}/img/cat-sobaki1.jpg) top center no-repeat;
-    }
-      .poroda2{background: url({theme}/img/shadow.png) top center no-repeat,
-                         url({theme}/img/cat-sobaki2.jpg) top center no-repeat;
-    }
-      .poroda3{background: url({theme}/img/shadow.png) top center no-repeat,
-                         url({theme}/img/cat-sobaki3.jpg) top center no-repeat;
-    }
-      .poroda4{background: url({theme}/img/shadow.png) top center no-repeat,
-                         url({theme}/img/cat-sobaki4.jpg) top center no-repeat;
-    }
-      .poroda5{background: url({theme}/img/shadow.png) top center no-repeat,
-                         url({theme}/img/cat-sobaki5.jpg) top center no-repeat;
-    }
-      .poroda6{background: url({theme}/img/shadow.png) top center no-repeat,
-                         url({theme}/img/cat-sobaki6.jpg) top center no-repeat;
-    }
-      .poroda7{background: url({theme}/img/shadow.png) top center no-repeat,
-                         url({theme}/img/cat-sobaki7.jpg) top center no-repeat;
-    }
-      .poroda8{background: url({theme}/img/shadow.png) top center no-repeat,
-                         url({theme}/img/cat-sobaki8.jpg) top center no-repeat;
-    }
-      .poroda9{background: url({theme}/img/shadow.png) top center no-repeat,
-                         url({theme}/img/cat-sobaki9.jpg) top center no-repeat;
-    }
-    
-    .poroda1,.poroda6{margin-left: 0px;}
-	
-	.cat h2 {
-	color:#fff;
-	font-size:29px;
-	font-family: BebasNeueRegular;
-	position:absolute;
-	bottom:5px;
-	left:10px;
-	}
-
-.podrobnee b{
-    font-weight: 300;
-    
 }

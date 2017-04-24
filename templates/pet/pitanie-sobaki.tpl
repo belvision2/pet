@@ -1,5 +1,4 @@
 <style>.navigation, .hide-cotegory {display: none;}
-
     .sp-horizontal .sp-next-arrow {
     right: 63px;
     top: -2px;
@@ -11,10 +10,10 @@
     .sp-horizontal .sp-previous-arrow {
     left: 11px;
 }
-    .zagolovok-naidite {
+        .zagolovok-naidite {
     margin-bottom: 40px;
 }
-</style>
+    </style>
  <div class="zizn_menu_slider">
 	<div id="zizn-menu" class="slider-pro">
 		<div class="sp-slides">
@@ -48,16 +47,16 @@
 
 <div class="clear"></div>
 <div class="content-dress">
-  {custom category="99" order="reads" limit="3" from="0"  template="main/index-collag-art"}
-    {custom category="99" order="reads" limit="3" from="3"  template="main/index-collag-art"}
-    {custom category="99" order="reads" limit="3" from="6"  template="main/index-collag-art"}
+  {custom category="107" order="reads" limit="3" from="0"  template="main/index-collag-art"}
+    {custom category="107" order="reads" limit="3" from="3"  template="main/index-collag-art"}
+    {custom category="107" order="reads" limit="3" from="6"  template="main/index-collag-art"}
 
    
 </div>
-	{custom category="20,42,108,107,109,111,114" limit="6" from="0" idexclude="56" template="main/index-collag-positiv"}
+	{custom category="20,42,99,108,109,111,114" limit="6" from="0" idexclude="56" template="main/index-collag-positiv"}
 
- <div class="clear"></div>  
- <div class="zagolovok-naidite" >
+	 <div class="clear"></div>  
+ <div class="zagolovok-naidite">
        <p class="enc-text-naidite">ВАШЕМУ ПИТОМЦУ</p>
        <p class="text-uznaite">Популярные товары</p>
       </div>
@@ -119,7 +118,6 @@
 </div>
     
        <div class="clear"></div>  
-	
 	
 
 

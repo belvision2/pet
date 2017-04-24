@@ -3,14 +3,15 @@
 <head>
 	{headers}
 <meta name="viewport" content="width=device-width">
+    <meta http-equiv="Cache-Control" content="no-cache">
 	<link rel="stylesheet" href="{THEME}/css/styledefault.css"  type="text/css" media="all" />
 	<link rel="stylesheet" href="{THEME}/css/style.css"  type="text/css" media="all" />
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
 <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script><![endif]-->
-    [category=42,44,20,99]
+   
     <script type="text/javascript" src="http://wikipet.by/templates/pet/js/mootools.js"></script>
      <script type="text/javascript" src="http://wikipet.by/templates/pet/js/jquery.easing.1.3.js"></script>
-   [/category]
+
 
 <link rel="stylesheet" type="text/css" href="{THEME}/dist/css/slider-pro.css" media="screen"/>
 <script type="text/javascript" src="{THEME}/libs/jquery-1.11.0.min.js"></script>
@@ -28,8 +29,59 @@
     {include file="sidebar/rightsidebar.tpl"}
       [not-static=index] {speedbar}[/not-static]
        	[category=54]{include file="ivan.tpl"}[/category]
+       [category=29]
+<div class="enc-nav">
 
-     
+<ul class="pet-size">
+<li><a href="#">КРУПНЫЕ И ГИГАНТЫ</a></li>
+<li><a href="#">СРЕДНИЕ И СРЕДНЕКРУПНЫЕ</a></li>
+<li><a href="#">МАЛЕНЬКИЕ И ИКССМОЛЫ</a></li>
+</ul>
+<ul class="abc">
+<li><a href="#">А</a></li>
+<li><a href="#">Б</a></li>
+<li><a href="#">В</a></li>
+<li><a href="#">Г</a></li>
+<li><a href="#">Д</a></li>
+<li><a href="#">Е </a></li>
+<li><a href="#">Ж </a></li>
+<li><a href="#">З </a></li>
+<li><a href="#">И </a></li>
+<li><a href="#">Й </a></li>
+<li><a href="#">К </a></li>
+<li><a href="#">Л </a></li>
+<li><a href="#">М </a></li>
+<li><a href="#">Н </a></li>
+<li><a href="#">О </a></li>
+<li><a href="#">П </a></li>
+<li><a href="#">Р </a></li>
+<li><a href="#">С </a></li>
+<li><a href="#">Т </a></li>
+<li><a href="#">У </a></li>
+<li><a href="#">Ф </a></li>
+<li><a href="#">Х </a></li>
+<li><a href="#">Ц </a></li>
+<li><a href="#">Ч </a></li>
+<li><a href="#">Ш </a></li>
+<li><a href="#">Э </a></li>
+<li><a href="#">Ю </a></li>
+<li><a href="#">Я </a></li>
+</ul>
+
+</div>
+       <style>aside, .pages, .navigation {display: none;}
+#dle-content {
+    width: 1201px;
+	padding-top:0;}  
+    .seed-form {
+        width: 1200px;}
+    .inside_article_search {
+        width: 1035px;}
+</style>
+
+
+{custom categoryexclude="0-28,30-1000" limit="1000"  template="sobaki-custom"}
+   [/category]  
        {info}
        {content}
     
@@ -53,19 +105,19 @@
 		});
         
 	</script>
- [static=index] <!--социальные кнопки слева-->
+ [static=index] <!--социальные кнопки слева
     <script src="{THEME}/js/social.js"></script>
     <div class="social-left">
       <div id="l-vk"></div>
         <div id="l-ok"></div>
-          <div id="l-fb"></div>
-            <div id="l-inst"></div>
+          <a href="https://www.facebook.com/WikiPetby-482208312169722/"><div id="l-fb"></div></a>
+        <a href="https://www.instagram.com/wikipet.by/"><div id="l-inst"></div></a>
                <div id="l-you"></div>
     
     
     </div>
     
-    <!--социальные кнопки слева конец-->[/static]
+    социальные кнопки слева конец-->[/static]
     <!--меню-->
 <div class="pop-up-menu" style=" display:none;   z-index: 99999999;
     top: 10px;

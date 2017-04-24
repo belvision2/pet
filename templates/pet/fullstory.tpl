@@ -90,7 +90,7 @@
 	{pages}
     <div class="line"></div>
      <h1 class="red-full">новое на сайте</h1>
-  {custom category="22,11,13,14,15,16,17,18,24,25,27,49,52,55" order="date" limit="6" from="0" idexclude="56,157,80,63" template="fullstory-bottom1"} 
+<div class="full-coll">{custom  categoryexclude="30-36,23,27,24,45,47,50,90,56,113,29" from="0" sort="desc" limit="6" template="fullstory-bottom1"} </div>
        <div class="clear"></div> 
 <div class="comments ignore-select">
 
